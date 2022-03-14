@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
+
+body {
+
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.2em;
+}
+/*#858789 #ee2e34 
+<img src="https://img.icons8.com/ios/50/ffffff/happy--v1.png"/>
+<img src="https://img.icons8.com/ios-filled/50/ffffff/task-completed.png"/>
+<img src="https://img.icons8.com/ios-glyphs/30/ffffff/user-group-man-woman.png"/>
+<img src="https://img.icons8.com/ios-filled/50/ffffff/calendar--v1.png"/>
+*/
+
+.item--title {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+.counter
+{
+    /* background-image: url("../Images/Pages/bg-counter-section.jpg"); */
+    background: linear-gradient(rgba(34, 52, 80, 0.9), rgba(34, 52, 80, 0.7)), url("../Images/Pages/bg-counter-section.jpg");
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ct-heading-divider span
+{
+    width: 140px;
+    height: 2px;
+    margin-top:20px;
+   
+      background-image: -webkit-gradient(linear,left top,right top,from(#858789),to(#ee2e34));
+    background-image: -webkit-linear-gradient(left,#858789,#ee2e34);
+    background-image: -moz-linear-gradient(left,#858789,#ee2e34);
+    background-image: -ms-linear-gradient(left,#858789,#ee2e34);
+    background-image: -o-linear-gradient(left,#858789,#ee2e34);
+    background-image: linear-gradient(left,#858789,#ee2e34);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#858789',endColorStr='#ee2e34',gradientType='1');  
+    display: inline-block;
+    vertical-align: top;
+
+}
+.ct-info
+{
+    padding: 0% 29% 0% 28%;
+    font-size: 18px;
+    line-height: 26px
+}
+.counter-icon
+
+{
+    margin-bottom:20px;
+}
+.counter-icon img
+{
+    height:74px !important;
+
+}
+.rs-count,.plus
+{
+    font-size:52px;
+
+}
+.counter-part
+{
+    font-size:20px;
+}
+.content-part
+{
+    color:white;
+}
+.rs-count,.plus
+{
+     
+    background: -webkit-linear-gradient(#ee2e34, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}
+/****aboutus banner css****/
+.aboutus-section
+{
+    background-image: url(https://demo.casethemes.net/consultio-corporate2/wp-content/uploads/2020/04/h14-bg-section-01.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 95px 0px 95px 0px;
+    position:relative;
+}
+.aboutus-section:before {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+     
+  }
+ 
+ 
+.ct-banner2 .ct-banner-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 47px;
+    right: 71px;
+    background: -webkit-linear-gradient(#858789, #bbb);
+    -webkit-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -khtml-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -moz-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -ms-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -o-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    z-index: -1;
+}
+.ct-banner2 .ct-banner-image
+{
+    padding-left: 47px;
+    padding-top: 47px;
+    position: relative;
+    z-index: 1;
+}
+.ct-banner2 .ct-banner-holder:before {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    -webkit-border-radius: 30px 30px 0 0;
+    -khtml-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+    background: -webkit-linear-gradient(#858789, #bbb);
+    -webkit-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -khtml-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -moz-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -ms-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    -o-box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    box-shadow: 0 0 79px rgba(0,0,0,.45)inset;
+    z-index: -2;
+}
+.ct-banner2 .ct-banner-icon img {
+     
+    padding:5px;
+}
+.ct-banner2 .ct-banner-holder {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px 27px 25px;
+    background-color: #fff;
+    -webkit-border-radius: 30px 30px 0 0;
+    -khtml-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+    margin-right: 75px;
+    margin-left: 65px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 0 8px 65px rgb(12 12 12 / 19%);
+    -khtml-box-shadow: 0 8px 65px rgba(12,12,12,.19);
+    -moz-box-shadow: 0 8px 65px rgba(12,12,12,.19);
+    -ms-box-shadow: 0 8px 65px rgba(12,12,12,.19);
+    -o-box-shadow: 0 8px 65px rgba(12,12,12,.19);
+    box-shadow: 0 8px 65px rgb(12 12 12 / 19%);
+}
+.ct-banner2  .ct-banner-holder {
+    margin-top: -90px;
+}
+.ct-banner2 .ct-banner-holder:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -webkit-border-radius: 30px 30px 0 0;
+    -khtml-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+    border-radius: 30px 30px 0 0;
+}
+.ct-banner-title
+{
+    font-size:1.5rem !important;
+}
+.style6
+{
+    padding-right: 50px !important;
+    position: relative;
+    color: red !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sub-title
+{
+    font-weight: 600;
+    display: inline-block;
+    color: #ee2e34;
+}
+.item--title
+{
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+ .heading{
+     font-size:20px;
+     color: #ee2e34;
+     font-weight: 600;
+     
+ }
+.heading:before {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #ee2e34;
+    left: 19%;
+    top: 3%;
+    position: absolute;
+  }
