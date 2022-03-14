@@ -1056,14 +1056,14 @@ h4:after {
   top: 360px;
   left: 0;
   width: 100%;
-  background-color: #ee2e34;
-  background-image: -webkit-gradient(linear,left top,right top,from(#ee2e34),to(#c06265));
-  background-image: -webkit-linear-gradient(left,#ee2e34,#c06265);
-  background-image: -moz-linear-gradient(left,#ee2e34,#c06265);
-  background-image: -ms-linear-gradient(left,#ee2e34,#c06265);
-  background-image: -o-linear-gradient(left,#ee2e34,#c06265);
-  background-image: linear-gradient(left,#ee2e34,#c06265);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#c06265',endColorStr='#c06265',gradientType='1');
+  background-color: #7c8796;
+  background-image: -webkit-gradient(linear,left top,right top,from(#7c8796),to(#b0b7c0 ));
+  background-image: -webkit-linear-gradient(left,#7c8796,#b0b7c0 );
+  background-image: -moz-linear-gradient(left,#7c8796,#b0b7c0 );
+  background-image: -ms-linear-gradient(left,#7c8796,#b0b7c0 );
+  background-image: -o-linear-gradient(left,#7c8796,#b0b7c0 );
+  background-image: linear-gradient(left,#7c8796,#b0b7c0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b0b7c0 ',endColorStr='#b0b7c0 ',gradientType='1');
 }
 .card-overlay
 {
