@@ -1182,6 +1182,40 @@ h4:after {
   color:white;
 }
 /****All Services section****/
+/**brochure section**/
+.ct-cta1
+{
+  border-radius: 7px;
+    background-color: #0e0e0e;
+    padding: 13px 59px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ct-cta1 .item--holder {
+  flex-grow: 1;
+  margin-right: 30px;
+}
+.ct-cta1>div {
+  margin: 10px 0;
+}
+.ct-cta1 .item--holder .item--title {
+  font-family: poppins,sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+.ct-cta1 .item--holder .item--desc {
+  font-size: 18px;
+  color: #c6c6c6;
+  font-weight: 300;
+}
+.ct-cta1 .btn {
+  padding: 0 42px;
+  line-height: 55px;
+  font-size: 15px;
+}
+/**brochure section**/
 /***team section ***/
 .team
 {
