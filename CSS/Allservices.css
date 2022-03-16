@@ -6,63 +6,9 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 /****All Services section****/
-.heading{
-    font-size:20px;
-    color: #ee2e34;
-    font-weight: 600;
-    position:relative;
-     margin:10px 100px 10px 100px;
-     max-width:500px;
-}
-.heading:after {
-   content: "";
-   display: block;
-   width: 45px;
-   height: 2px;
-   background: #ee2e34;
-   left: 25%;
-   top: 15%;
-   position: absolute;
- }
- .heading:before {
-    content: "";
-    display: block;
-    width: 45px;
-    height: 2px;
-    background: #ee2e34;
-    left: 0;
-    top: 15%;
-    position: absolute;
-  }
-  h4 {
-     
-     
-    color: #ee2e34;
-    text-align: center;
-    font-size: 20px;
-    max-width: 300px;
-    position: relative;
-  }
-  h4:before {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 5px;
-    background: #ee2e34;
-    left: 0;
-    top: 50%;
-    position: absolute;
-  }
-  h4:after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 5px;
-    background: #ee2e34;
-    right: 0;
-    top: 50%;
-    position: absolute;
-  }
+ 
+  
+   
   .card{
       padding:20px 0px;
   }
@@ -88,7 +34,7 @@ body {
       width:100px;
       padding:30px 20px 40px 20px;
   }
-  .card::before 
+  /* .card::before 
   {
     content: '';
     height: 5px;
@@ -104,8 +50,8 @@ body {
     background-image: -o-linear-gradient(left,#ee2e34,#a62024);
     background-image: linear-gradient(left,#ee2e34,#a62024);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#a62024',endColorStr='#a62024',gradientType='1');
-}
-.card::after
+} */
+/* .card::after
   {
     content: '';
     height: 5px;
@@ -121,7 +67,7 @@ body {
     background-image: -o-linear-gradient(left,#ee2e34,#c06265);
     background-image: linear-gradient(left,#ee2e34,#c06265);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#c06265',endColorStr='#c06265',gradientType='1');
-}
+} */
 .card-overlay
 {
     position: absolute;

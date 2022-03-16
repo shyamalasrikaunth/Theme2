@@ -1,0 +1,94 @@
+ 
+.carousel-caption-left,
+.carousel-caption-right {
+  text-align: left;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  bottom: auto;
+
+}
+
+.carousel-caption-left {
+  right: 50% !important;
+  left: 40px !important;
+}
+
+.carousel-caption-right {
+  left: 50% !important;
+  right: 40px !important;
+}
+
+.carousel-caption-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  right: 0;
+
+  color: white !important;
+  position: absolute;
+}
+
+/* <!--team section --> */
+.ourTeam-box {
+  border-radius: 2px;
+  border-top: 6px solid #5DDDD3;
+  margin: 0px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.section1 {
+  padding: 30px 0px 30px 0px;
+}
+
+.section1 img {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.section2 p {
+  font-weight: bold;
+  color: #5DDDD3;
+  letter-spacing: 1px;
+}
+
+.section2 span {
+  color: #979597;
+}
+
+.section3 {
+  background-color: #5DDDD3;
+}
+
+.section3 i {
+  color: #ffffff !important;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.section-info {
+  border-top: 6px solid #7c8796;
+}
+
+.section-info p {
+  color: #7c8796;
+}
+
+.section-info .section3 {
+  background-color: #7c8796;
+}
+
+.section-danger {
+  border-top: 6px solid #FD8469;
+}
+
+.section-danger p {
+  color: #FD8469;
+}
+
+.section-danger .section3 {
+  background-color: #FD8469;
+}
+ 

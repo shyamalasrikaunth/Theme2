@@ -86,7 +86,28 @@ $(document).ready(function() {
        }
  
   });
+  $("#owl-demo1").owlCarousel({
  
+    loop:true,
+        autoplaySpeed:1000,
+        items:5,
+        autoplay:true,
+        dots: false,
+       itemsDesktop : [1199,3],
+       itemsDesktopSmall : [979,3],
+       responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+  
+   });
  });
  var counter_Up = $('.rs-count');
  
