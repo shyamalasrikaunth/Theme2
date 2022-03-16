@@ -416,9 +416,13 @@ text-align:left !important;
 
 .icon {
     font-size: 24px;
-    color: #f36c70
+    color: #f36c70;
 }
-
+.fa-envelope
+{
+  font-size: 24px;
+    color: #f36c70;
+}
 .ct-header-info-item .h-item-meta {
     font-size: 15px;
     color: #1a1a1a;
