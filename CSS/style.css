@@ -118,209 +118,7 @@ textarea:focus { outline-color: #EF0031; }
     h2 { font-size: 1.5em; }
 }
 
-@media only screen and (max-width: 575px) {
 
-  .carousel-caption h1 {
-    font-size: 1.5rem !important;
-    font-weight: 600 !important;
-     
-}  
-.carousel-caption-left {
-  right: 0 !important;;
-  left: 0px !important;
-  padding-top:52px !important;
-}
-.carousel-caption-right
-{ 
-  right:0 !important;
-  left:0 !important;
-  padding-top:40px !important;
-}
-.carousel-caption-center
-{
-  top: 23%!important;
-    left: 13%!important;
-}
-.carousel-caption h2 {
-  font-size: 1.5rem !important;
-  font-weight: 600 !important;
-   
-}  
-.carousel-caption-left {
-  right: 0;
-  left: 0px;
-}
-.caption-left
-{
-  text-align:center !important;
-  margin:auto !important;
-}
-.caption-right
-{
-  text-align:center !important;
-  margin:auto !important;
-}
-/* .caption-left h2{
-  background-color: rgb(209, 209, 154) !important ;
-  top: 30% !important;
-  left:50%;
-  height: auto !important;
-  max-height: 120px !important;
-} */
-.carousel-item  img {
-  height: auto;
-  width: 100%;
-  height: 50vh;
-}
-.img-gradient:after,.img-gradient1:after {
-  content:'';
-  position:absolute;
-  right:0; top:0;
-  width:100%; height:100%;
-  display:inline-block;
-  background: -moz-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%)!important; /* FF3.6+ */
-  background: -webkit-gradient(color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5)))!important; /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Opera 11.10+ */
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* IE10+ */
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ) !important; /* IE6-9 */
-}
- 
- 
- 
-
-.carousel-item {
-  
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-    
-    /* color: rgb(3, 46, 66); */
-    
- 
- /*abouts us banner **/
-
- /**carousel **/
- 
- /**carousel**/
-
- .ct-banner-desc 
- {
-  line-height: 19px !important;
-  font-size: 11px !important;
- }
- .aboutus-section
- {
-   padding:5px 0px 5px 0px !important;
- }
-    
- .ct-banner2 .ct-banner-image {
-  padding-left: 25px !important;
-  padding-top: 25px !important;
-  position: relative;
-  z-index: 1;
-}
-.ct-banner2 .ct-banner-holder 
-{
-   
-    padding: 40px 27px 20px !important;
-    background-color: #fff !important;
-     
-    margin-right: 25px !important;
-    margin-left: 25px !important;
-     
-}
- 
-  .ct-banner-title {
-    font-size: 1rem !important;
-    font-weight: 600;
-}
- .ct-banner-image
- {
-   margin-top:30px;
- }
-.heading {
-  font-size: 21px !important;
-}
-.aboutus-section  h3
-{
-  font-size:1rem;
-  font-weight:500;
-}
-.aboutus-section  p
-{
-  font-size:1rem;
-  font-weight:300;
-  line-height:2.1;
-}
-.item--title  {
-   
-  font-size: 19px !important;
-  margin-bottom: 28px !important;
-  font-weight: 600 !important;
-}
-.aboutus-section h3  {
-   
-  font-size: 19px !important;
-  margin-bottom: 28px !important;
-  font-weight: 600 !important;
-}
- 
-
-/*Counter***/
-.ct-info {
-   padding: 0% 2% 0% 4% !important;  
-  font-size: 16px !important;
-  line-height: 29px !important;
-  text-align: left !important;
-}
-.rs-count, .plus {
-  font-size: 32px !important;
-}
-.counter-icon img {
-  width: 56px !important;
-  height: 56px  !important;
-}
-.services .card::after
-{
-  content: '';
-  height: 0px !important;
-   
- 
-}
-.services .card:hover
-{
-  cursor:pointer !important;
-}
-.card-text
-{
-text-align:left !important;
-}
-.card-text {
-  line-height: 2 !important;
-  font-size:16px !important;
-}
- .item--title a
- {
-   font-size:14px !important;
- }
- .footer-site h2
- {
-   font-size:1.2em !important;
- }
- .footer-site {
-  
-  padding: 2rem 2rem !important;
- }
- figure img{
-   padding:30px !important;
- }
-}
 /***PRE-LOADER CSS***/
 @keyframes loaderpulse {
     0% {
@@ -516,7 +314,7 @@ text-align:left !important;
 
 .bar {
     padding: 16px 13px 16px;
-    background: transparent;
+   
     max-width: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -527,10 +325,11 @@ text-align:left !important;
 
 
 .dot {
+  background: #e89999;
     height: 5px;
     width: 5px;
     display: block;
-    background: white;
+    
     border-radius: 50%;
     transition: none;
     list-style: none;
@@ -556,24 +355,7 @@ text-align:left !important;
 
  
   
- .carousel-caption h1{
-  font-size: 2.75rem;
-  font-weight: 600;
-  padding-top: 50px;
-   
- }
- .carousel-caption h2{
-  font-size:2.5rem ;
-  font-weight:600;
-  
-}
-.carousel-caption-center
-{
-  right:-23% !important;
-  left:50% !important;
-  top:55% !important;
-}
- 
+
 .img-gradient{
   position:relative;
   display:inline-block;
@@ -636,7 +418,7 @@ text-align:right !important;
 }
 .carousel-item .before
 {
-  content:"";   // so it takes up the full height
+  content:"";    
 }
 .carousel-caption-description p{
   font-size:1.05rem;
@@ -1051,6 +833,12 @@ color:#5d5d5d;}
 .services1 .card
 {
   box-shadow:3px 0px 5px 6px #ccc;
+  padding:20px;
+}
+.card-title
+{
+  font-size:1.25em;
+  font-weight:600;
 }
 .services-section
 {
@@ -1175,11 +963,97 @@ z-index: 1;
     margin-bottom:4px;
     color:black;
 }
+/**team section **/
+.our-team {
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px 15px 30px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.our-team .pic {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .pic {
+  background: #f36c70;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.our-team .title {
+  font-weight: 600;
+  color: #2e282a;
+  text-transform: uppercase;
+  display: block;
+  font-size: 16px;
+  margin: 0 0 7px 0;
+}
+
+.our-team .post {
+  color: #ee2e34;
+  text-transform: capitalize;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.our-team .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.our-team .social li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.our-team .social li a {
+  border-radius: 50%;
+  font-size: 15px;
+  color: #ee2e34;
+  border: 1px solid #ee2e34;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social li a {
+  background: #ee2e34;
+  color: #fff;
+}
+
+.teamsection {
+  background: #e3e3e3;
+  ;
+
+}
+
+.teamsection .our-team {
+  margin: 40px;
+}
 @media (max-width: 767px) {
-    .title-heading
+  /*   .title-heading
   {
     font-size:1.5rem !important;
-  }
+  } */
 }
 .heading{
   font-size:30px;
@@ -1189,9 +1063,10 @@ z-index: 1;
    
    
 }
-.title-heading {
-  font-size: 1.25rem !important;
-}
+/* .title-heading {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+} */
 /* .heading:after {
  content: "";
  display: block;
@@ -2071,4 +1946,387 @@ height:400px;
     background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
 }
 
+#navbarNav.collapse.in
+{
+    position: fixed !important;
+    right: 0 !important;
+    top:80px;
+    background-color: #e89999 !important;
+    z-index:9999;
+}
+.item---title  
+{
+  font-size:1.75em;
+}
+/*** media query for top bar for devices from tablets to 13 inch notebook**/
+@media (min-width: 481px) and (max-width: 768px)  
+ {
+  .ct-header-mobile .ct-header-info-item .h-item-meta
+  {
+ color:white !important;
+  }
+  .ct-header-holder .ct-header-info-item {
+    margin-left: 0px !important;
+    padding-left: 2 px !important;
+    position: relative;
+    padding-right:10px;
+}
+   .ct-banner2 .ct-banner-holder
+   {
+    padding: 15px 17px 15px;
+    margin-left:0px;
+    margin-right:0px;
+   }
+   .aboutus-section
+   {
+    padding: 45px 0px 35px 0px
+   }
+   .ct-info
+   {
+    padding:0 100px 0 100px;
+    text-align: justify;
+    font-size:15px;
+   }
+   .counter-icon 
+   {
+     margin-bottom:20px;
+     margin-top: 20px !important;
+   }
+   .services p 
+   {
+     font-size:1.05em !important;
+   }
+   .teamsection .our-team
+   {
+     margin:0px !important;
+   }
+   .our-team .title{
+     font-size:12px;
+   }
+   .our-team .post
+   {
+    font-size:12px;
+    font-weight:500;
+   }
+   .heading 
+   {
+    font-size:25px;
+   }
+   .item---title  
+   {
+     font-size:1.25em;
+   }
+   .item--title  
+   {
+     font-size:1.75em;
+   }
+   .rs-count, .plus 
+   {
+    font-size:35px;
+   }
+   .title-heading {
+     font-size:1.75em !important; 
+   }
+   .footer-site h2
+   {
+    font-size:1.75em !important; 
+   }
+   .footer-site h3 
+   {
+     font-size:10px;
+   }
+   .footer-site .social li a
+   {
+     width:50px;
+   }
+   .footer-site .social li a span{
+     font-size:20px !important;
+   }
+   .carousel-caption h2
+   {
+     font-size:1.5em;
+   }
+   .carousel-caption h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding-top: 0px;
+   }
+   .aboutus-section p{
+     line-height: 1.7;
+     font-size:1em;
+   }
+   .aboutus-section h5
+  {
+    font-size:1.3em;
+  }
+  .ct-banner-title
+  {
+    font-size:1.25rem;
+  }
+  .title-desc {
+    font-size: 1rem !important;
+}
+/**all services section ***/
+.img-content img{
+  height:50vh !important;
+}
+.title-heading-services
+{
+  font-size:2em !important;
+  font-weight: 600;
+}
+.title-desc-services
+{
+  font-size: 1.4rem !important;
+  line-height: 2 !important;
+  text-align: justify !important;
+}
+/**All services section ***/
+.services1
+{
+  margin-top:1em !important;
+}
+.card-title
+{
+  font-size:1.45em !important;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.card-text
+{
+  line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+ }
+/**end All Services section 
+ }
+/**small size devices***/
+ @media only screen and (max-width: 575px) {
+
+  .carousel-caption,.carousel-caption-left,.carousel-caption-right,.carousel-caption-center {
+    transform: translateY(-50%) !important;
+    bottom:initial !important;
+    top:50% !important;
+    font-size:2.5em !important;
+    /* top: 30%;
+    bottom: auto;
+    font-size:30px !important; */
+}
+.aboutus-section h3 {
+  font-size: 16px !important;
+  margin-bottom: 0px !important;
+  font-weight: 600 !important;
+}
+  
+.carousel-item  img {
+  height: auto;
+  width: 100%;
+  height: 50vh;
+}
+.img-gradient:after,.img-gradient1:after {
+  content:'';
+  position:absolute;
+  right:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%)!important; /* FF3.6+ */
+  background: -webkit-gradient(color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5)))!important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Opera 11.10+ */
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* IE10+ */
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ) !important; /* IE6-9 */
+}
  
+ 
+ 
+
+.carousel-item {
+  
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+    
+    /* color: rgb(3, 46, 66); */
+    
+ 
+ /*abouts us banner **/
+
+ /**carousel **/
+ 
+ /**carousel**/
+.heading{
+  font-size:25px !important;
+}
+.title-heading
+{
+  font-size:1.25rem !important;
+  font-weight:600;
+}
+.title-desc {
+  font-size: 1.05em !important;
+  line-height: 1.8;
+  text-align: justify;
+}
+.services .card
+{
+     
+    box-shadow: 0 2px 5px 0 
+    rgba(0, 0, 0, 0.5), 0 
+    2px 10px 0 rgba(0, 0, 0, 1);
+    margin:10px 10px
+
+}
+ .ct-banner-desc 
+ {
+  line-height: 19px !important;
+  font-size: 11px !important;
+ }
+ .aboutus-section
+ {
+   padding:5px 0px 5px 0px !important;
+ }
+
+ .ct-banner2 .ct-banner-image {
+  padding-left: 25px !important;
+  padding-top: 25px !important;
+  position: relative;
+  z-index: 1;
+}
+.ct-banner2 .ct-banner-holder 
+{
+   
+    padding: 40px 27px 20px !important;
+    background-color: #fff !important;
+     
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+     
+}
+ 
+  .ct-banner-title {
+    font-size: 1rem !important;
+    font-weight: 600;
+}
+ .ct-banner-image
+ {
+   margin-top:30px;
+ }
+/* .heading {
+  font-size: 21px !important;
+} */
+.aboutus-section  h3
+{
+  font-size:1rem;
+  font-weight:500;
+}
+.aboutus-section  p
+{
+  font-size:1rem;
+  font-weight:300;
+  line-height:2.1;
+}
+.item--title  {
+   
+  font-size: 19px !important;
+  margin-bottom: 28px !important;
+  font-weight: 600 !important;
+}
+.aboutus-section h3  {
+   
+  font-size: 19px;
+  margin-bottom: 28px ;
+  font-weight: 600 ;
+}
+ 
+
+/*Counter***/
+.ct-info {
+   padding: 0% 2% 0% 4% !important;  
+  font-size: 16px !important;
+  line-height: 29px !important;
+  text-align: left !important;
+}
+.rs-count, .plus {
+  font-size: 32px !important;
+}
+.counter-icon img {
+  width: 56px !important;
+  height: 56px  !important;
+}
+.services .card::after
+{
+  content: '';
+  height: 0px !important;
+   
+ 
+}
+.services .card:hover
+{
+  cursor:pointer !important;
+}
+.card-text
+{
+text-align:left !important;
+}
+.card-text {
+  line-height: 2 !important;
+  font-size:16px !important;
+}
+.services1  .card-text
+{
+  line-height: 1.8 !important;
+  font-size:15px !important;
+  text-align:justify !important;
+  text-justify: distribute-all-lines;
+}
+ .item--title a
+ {
+   font-size:14px !important;
+ }
+ .footer-site h2
+ {
+   font-size:1.2em !important;
+ }
+ .footer-site {
+  
+  padding: 2rem 2rem !important;
+ }
+ figure img{
+   padding:30px !important;
+ }
+ .mobile-margin-services
+ {
+  margin-bottom: 2rem!important ;
+  margin-top: 2rem!important  ;
+ }
+ .mobile-margin-counter
+ {
+  margin-bottom: 2rem!important ;
+  margin-top: 2rem!important  ;
+ }
+ .img-content img{
+  height:40vh !important;
+}
+.banner-content h1
+{
+  font-size:50px !important;
+}
+.services1
+{
+  margin-top:1em !important;
+} 
+.services1 .card
+{
+  padding:10px 5px 10px 5px;
+  border:2px solid #f36c70 !important;
+  box-shadow:none;
+}
+}
+
+  

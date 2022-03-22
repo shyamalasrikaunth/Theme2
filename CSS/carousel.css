@@ -1,4 +1,8 @@
- 
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+
 .carousel-caption-left,
 .carousel-caption-right {
   text-align: left;
@@ -91,4 +95,68 @@
 .section-danger .section3 {
   background-color: #FD8469;
 }
+.carousel-caption h1{
+  font-size: 2.75rem;
+  font-weight: 600;
+  padding-top: 50px;
+   
+ }
+ .carousel-caption h2{
+  font-size:2.5rem ;
+  font-weight:600;
+  
+}
+.carousel-caption-center
+{
+  right:-23% !important;
+  left:50% !important;
+  top:55% !important;
+}
  
+}
+@media only screen and (max-width: 575px) {
+  .carousel-caption-left {
+    right: 0% !important;
+    left: 0px !important;
+  }
+  
+  .carousel-caption-right {
+    left: 0% !important;
+    right: 0px !important;
+  }
+  .carousel-caption h2{
+    font-size:1em !important;
+    font-weight:600;
+    color:#dddddd;
+  }
+  .main
+  {
+    font-size:0.9em;
+    font-weight:700;
+  }
+  .carousel-item {
+    height: 300px;
+}
+ 
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 40px 10px 10px 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 60%;
+  background-color: white;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+  
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 40px 10px 10px 10px;
+  background-color: #FD8469;
+}
+
+  
+}

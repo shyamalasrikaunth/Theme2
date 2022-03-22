@@ -39,14 +39,14 @@
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="CSS/style.css">
 
- <link rel="stylesheet" href="CSS/carousel.css">
+  <link rel="stylesheet" href="CSS/carousel.css">
 
 
 
   <script src="https://kit.fontawesome.com/b7ab1e6218.js" crossorigin="anonymous"></script>
 
 
- 
+
 </head>
 
 <body>
@@ -77,14 +77,14 @@
         <div class="container">
 
           <div class="row">
-            <div class="ct-header-branding ">
+            <div class="ct-header-branding d-none d-lg-block  ">
               <a class="logo-dark logo1" href="https://arraycom.co.in" title="arraycom" rel="home">
                 <img src="Images/logoblack.png" alt="Arryacom" /></a>
-                <a class="logo2 navbar-brand d-none" href="#" >
-                  <img src="Images/logowhite.png" alt="logo">
+              <a class="logo2 navbar-brand d-none" href="#">
+                <img src="Images/logowhite.png" alt="logo">
               </a>
             </div>
-            <div class="ct-header-holder ">
+            <div class="ct-header-holder d-none d-lg-block ">
               <div class="ct-header-info-item ct-header-call">
                 <div class="h-item-icon">
                   <span class="icon ">
@@ -100,7 +100,7 @@
                 <div class="h-item-meta"> <label>Mail us for support:</label> <span>info@arraycom.co.in</span> <a
                     href="mailto:info@arraycom.co.in" target="_self" class="h-item-link"></a></div>
               </div>
-              <div class="ct-header-info-item ct-header-address">
+              <div class="ct-header-info-item ct-header-address ">
                 <div class="h-item-icon"> <span class="icon"><i class="fa fa-map-marker"></i></span></div>
                 <div class="h-item-meta"> <label>Electronic Estate, GIDC Sector – 25,</label> <span>
                     Gandhinagar,Gujarat</span></div> <a
@@ -111,6 +111,7 @@
           </div>
         </div>
       </div>
+
       <div class="ar-header-main header-main-bg">
 
         <nav class="navbar navbar-default bg-dark navbar-expand-lg text-center ">
@@ -118,7 +119,7 @@
           <a class="logo2 navbar-brand d-none" href="#">
             <img src="Images/logoblack.png" alt="logo">
           </a>
-          <a class="logo2 navbar-brand d-block d-sm-none" href="#">
+          <a class="logo2 navbar-brand d-block d-lg-none" href="#">
             <img src="Images/logowhite.png" alt="logo">
           </a>
           <!-- <span class="navbar-text d-none d-sm-block">
@@ -140,8 +141,8 @@
             </div>
 
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
+          <div class="collapse navbar-collapse in" id="navbarNav">
+            <ul class="navbar-nav mx-lg-auto ">
               <li class="nav-item ml-md-5 active">
                 <a class="nav-link   " href="Index.html">
                   Home
@@ -166,6 +167,24 @@
                 </a>
               </li>
             </ul>
+            <div class="ct-header-holder ct-header-holder-mobile  d-block d-lg-none mx-auto" >
+              <div class="ct-header-info-item ct-header-call">
+                <div class="h-item-icon"> <i class="flaticon-telephone text-gradient"></i></div>
+                <div class="h-item-meta"> <label>Call Us: (210) 123-451</label> <span>(Sat - Thursday)</span></div> <a
+                  href="tel:+123456789" target="_self" class="h-item-link"></a>
+              </div>
+              <div class="ct-header-info-item ct-header-mail">
+                <div class="h-item-icon"> <i class="flaticonv3-envelope text-gradient"></i></div>
+                <div class="h-item-meta"> <label>Mail us for help:</label> <span>info@consultio.com</span></div> <a
+                  href="mailto:info@consultio.com" target="_self" class="h-item-link"></a>
+              </div>
+              <div class="ct-header-info-item ct-header-address">
+                <div class="h-item-icon"> <i class="flaticon-map text-gradient"></i></div>
+                <div class="h-item-meta"> <label>380 St Kilda Road,</label> <span>Melbourne, Australia</span></div> <a
+                  href="https://www.google.com/maps/place/380+St+Kilda+Rd,+Melbourne+VIC+3000,+Australia/"
+                  target="_blank" class="h-item-link"></a>
+              </div>
+            </div>
           </div>
 
         </nav>
@@ -194,7 +213,7 @@
             <img src="Images/slider/bgeng1.jpg" class="d-block w-100 img-fluid" alt="slide-img-1">
 
             <div class="carousel-caption carousel-caption-center ">
-              <h1>Engineering a Better Tomorrow</h1>
+              <h2 class="main">Engineering a Better Tomorrow</h2>
 
             </div>
           </div>
@@ -221,7 +240,7 @@
 
             </div>
             <div class="carousel-caption  text-center carousel-caption-right  ">
-              .
+              
               <h2>Thick Film Material Division</h2>
               <div class="carousel-caption-description  d-none d-md-block">
                 <p>Preferred supplier by customizing materials and processes for industrial<br> applications by
@@ -296,7 +315,8 @@
           <h4 class="heading">About Us</h4>
 
 
-          <h3 class="item---title st-default " style="font-size:1.75em;">The Best Choice for your Successful Business</h3>
+          <h3 class="item---title st-default ">The Best Choice for your Successful Business
+          </h3>
           <p>Arraycom (India) Limited is an ISO 9001:2008 certified company and one of the leading System Integrators in
             India active in the field of Professional Electronics encompassing Satellite Communications, Signal
             Intelligence, Surveillance, Terrestrial Communications, Broadcast, Networking, Software Development and also
@@ -323,7 +343,7 @@
   </div>
   <!-- about-->
   <!--counter-->
-  <div class="counter pt-5 pb-5 mb-5">
+  <div class="counter pt-5 pb-5 mb-5 mobile-margin-counter">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -412,7 +432,7 @@
   </div>
   <!--counter-->
   <!-- services-->
-  <div class="container mt-5 mb-5">
+  <div class="container mt-5 mobile-margin-services mb-5">
     <div class="row">
       <div class="col-lg-6">
         <div class="sub-title">
@@ -432,9 +452,9 @@
       </div>
     </div>
   </div>
-  <div class="container services mt-5 mb-5">
+  <div class="container services mt-lg-5 mb-5">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-12">
         <div class="card text-dark bg-light">
           <div class="card-header bg-lightgrey  text-left  ">
             <h4 class="color-lightred">System Integration Division</h4>
@@ -449,10 +469,13 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-12">
         <div class="card text-dark bg-light">
-          <div class="card-header bg-lightgrey text-left text-light">
+          <div class="card-header bg-lightgrey text-left text-light d-none d-lg-block">
             <h4 class="color-lightred">Solar Power<br> Division</h4>
+          </div>
+          <div class="card-header bg-lightgrey text-left text-light d-block d-lg-none">
+            <h4 class="color-lightred">Solar Power Division</h4>
           </div>
           <div class="card-body ">
 
@@ -463,9 +486,9 @@
             <a href="solar.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
         </div>
-       
+
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-12">
         <div class="card text-dark bg-light">
           <div class="card-header bg-lightgrey text-left text-light">
             <h4 class="color-lightred">Thick Film Material Division</h4>
@@ -480,24 +503,26 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 col-12">
         <div class="card text-dark bg-light">
           <div class="card-header bg-lightgrey text-left text-light">
             <h4 class="color-lightred">Smart Parking Solutions</h4>
           </div>
           <div class="card-body ">
 
-            <p class="card-text text-left">Hassle free parking solution for your car and bike with smart technolgies equipped with
-              QR codes and smart cards.</p><p>&nbsp;</p>
+            <p class="card-text text-left">Hassle free parking solution for your car and bike with smart technolgies
+              equipped with
+              QR codes and smart cards.</p>
+            <p>&nbsp;</p>
           </div>
           <div class="card-footer bg-lightgrey text-center text-danger">
             <a href="parking.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
         </div>
       </div>
-      </div>
     </div>
-   
+  </div>
+
   </div>
   <!-- services-->
   <!--brochure-->
@@ -716,101 +741,24 @@
   
   
   </div> -->
- 
+
   <!-- team-->
-<style>
-  .our-team{
-    border-radius: 15px;
-    text-align: center;
-    padding: 20px 15px 30px;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
 
-}
-.our-team .pic{
-    background: #fff;
-    padding: 10px;
-    margin-bottom: 25px;
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .pic{
-    background: #f36c70;
-    border-radius: 50%;
-    cursor:pointer;
-}
-.pic img{
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-.our-team .title{
-    font-weight: 600;
-    color: #2e282a;
-    text-transform: uppercase;
-    display: block;
-    font-size: 16px;
-    margin: 0 0 7px 0;
-}
-.our-team .post{
-    color: #ee2e34;
-    text-transform: capitalize;
-    display: block;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
-.our-team .social{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.our-team .social li{
-    display: inline-block;
-    margin-right: 5px;
-}
-.our-team .social li a{
-    border-radius: 50%;
-    font-size: 15px;
-    color: #ee2e34;
-    border: 1px solid #ee2e34;
-    display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    transition: all 0.5s ease 0s;
-}
-.our-team:hover .social li a{
-    background: #ee2e34;
-    color: #fff;
-}
-.teamsection
-{
-  background:#e3e3e3;
-;
-  
-}
-.teamsection .our-team
-{
-  margin:40px;
-}
-</style>
+  <section class="teamsection mt-5 mb-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <h4 class="heading">Our Expert Team</h4>
+      </div>
+    </div>
 
-<section class="teamsection mt-5 mb-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <h4 class="heading">Our Expert Team</h4>
-     </div>
-  </div>
- 
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-md-4 col-sm-12">
-        <div class="our-team">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12">
+          <div class="our-team">
             <div class="pic">
-                <img src="Images/team/G_2.png">
+              <img src="Images/team/G_2.png">
             </div>
             <h3 class="title">Ms Gorsi Parekh</h3>
             <span class="post">Managing Director</span>
@@ -819,18 +767,18 @@
               <li><a href="#" class="fa fa-twitter"></a></li>
               <li><a href="#" class="fa fa-google-plus"></a></li>
               <li><a href="#" class="fa fa-linkedin"></a></li>
-       </ul>
+            </ul>
             <!--social icon-->
 
+          </div>
         </div>
-    </div>
 
-<!--2nd member-->
+        <!--2nd member-->
 
-    <div class="col-md-4 col-sm-12">
-        <div class="our-team">
+        <div class="col-md-4 col-sm-12">
+          <div class="our-team">
             <div class="pic">
-                <img src="Images/team/B_1.jpg">
+              <img src="Images/team/B_1.jpg">
             </div>
             <h3 class="title">Mr. Debamalya Banerjee</h3>
             <span class="post">President-Business Development</span>
@@ -839,18 +787,18 @@
               <li><a href="#" class="fa fa-twitter"></a></li>
               <li><a href="#" class="fa fa-google-plus"></a></li>
               <li><a href="#" class="fa fa-linkedin"></a></li>
-       </ul>
-             <!--social Icon-->
+            </ul>
+            <!--social Icon-->
 
+          </div>
         </div>
-    </div>
 
-<!--3rd member-->
+        <!--3rd member-->
 
-    <div class="col-md-4 col-sm-12">
-        <div class="our-team">
+        <div class="col-md-4 col-sm-12">
+          <div class="our-team">
             <div class="pic">
-                <img src="Images/team/C_1.jpg">
+              <img src="Images/team/C_1.jpg">
             </div>
             <h3 class="title">Ms.Vidhi Shah</h3>
             <span class="post">Independent Director</span>
@@ -859,19 +807,19 @@
               <li><a href="#" class="fa fa-twitter"></a></li>
               <li><a href="#" class="fa fa-google-plus"></a></li>
               <li><a href="#" class="fa fa-linkedin"></a></li>
-       </ul>
-             <!--social icon-->
+            </ul>
+            <!--social icon-->
 
+          </div>
         </div>
+
+
+
+        <!-- team section-->
+
+      </div>
     </div>
-  
-
-
-      <!-- team section-->
-
-    </div>
-  </div>
-</section>
+  </section>
   <!-- client-->
   <section id="Clientsection mb-5" class="Client">
     <div class="owl-carousel owl-theme" id="owl-demo">
@@ -933,7 +881,9 @@
             <h3>Further Information</h3>
             <ul class="list-unstyled links">
               <li><a href="AnnualReport.html">Investor Relations</a></li>
-              <li><a href="https://www.arraycom.co.in/wp-content/uploads/2016/04/ArraycomCompanyProfile-SI-Division.pdf">Company Profile</a></li>
+              <li><a
+                  href="https://www.arraycom.co.in/wp-content/uploads/2016/04/ArraycomCompanyProfile-SI-Division.pdf">Company
+                  Profile</a></li>
             </ul>
           </div>
           <div class="col-md-3">
@@ -946,23 +896,33 @@
 
             </ul>
           </div>
-          <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+          <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out"
+            data-abc="true"></a>
         </div>
       </div>
     </div>
   </footer>
   <!-- footer-->
   <!-- script section -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"  crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"   crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="	https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
-      integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <!-- <script>
   $(function(){
     $(document).ready(function(){
@@ -975,7 +935,7 @@ $('.carousel-item img').css('height',''+finalwidth+'px');
 });
     });
     </script> -->
- 
+
   <script src="Js/main.js"></script>
 
 
