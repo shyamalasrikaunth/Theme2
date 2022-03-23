@@ -312,7 +312,7 @@ textarea:focus { outline-color: #EF0031; }
     color: white;
 }
 
-.bar {
+.bar  {
     padding: 16px 13px 16px;
    
     max-width: 50px;
@@ -322,7 +322,16 @@ textarea:focus { outline-color: #EF0031; }
     padding-right: 0;
     margin-right: -4px;
 }
-
+.closebtn
+{
+  max-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-radius: 2px; */
+    padding-right: 0;
+    margin-right: -4px;
+    color:#e89999;
+}
 
 .dot {
   background: #e89999;
@@ -572,9 +581,20 @@ line-height: 110px;
 margin-top:20px;
 background:rgba(0, 0, 0, 0.6);
 }
+@keyframes zoomin {
+  0% { transform: scale(1.5, 1.5) }
+  50% { transform: scale(1, 1) }
+  100% { transform: scale(1.5, 1.5) }
+}
+.fadeInClass {
+  animation: 20s ease 0s normal none infinite running zoomin;
+  -webkit-animation: 20s ease 0s normal none infinite running zoomin;
+  -o-animation: 20s ease 0s normal none infinite running zoomin;
+  -moz--o-animation: 20s ease 0s normal none infinite running zoomin;
+}
 .img-content img {
  width:100%; 
- height:100vh;
+ height:70vh;
  position: relative;
   
 }

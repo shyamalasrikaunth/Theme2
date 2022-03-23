@@ -38,31 +38,14 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/navbar.css">
+
   <link rel="stylesheet" href="CSS/carousel.css">
 
 
 
   <script src="https://kit.fontawesome.com/b7ab1e6218.js" crossorigin="anonymous"></script>
 
-<style>
-  .card-img-overlay {
-  position: absolute !important;
-  top: 90px !important;
-  bottom: 0 !important;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-   
-}
-.services .card:hover .card-img-overlay
-{
-  opacity: 1;
-}
-  </style>
+
 
 </head>
 
@@ -81,116 +64,137 @@
   <!-- pre loader-->
 
   <!-- header-->
-  <header id="MainHeader" class="SiteHeader1">
-    <div class="top_bar">
-      <div class="container-fluid">
-        <div class="row">
+  <header id="ar-masthead" class="site-header">
+    <div class="headerwrap">
+      <div class="ar-header-top  d-none d-md-block">
+        <div class="container">
+          <div class="row">
 
+          </div>
         </div>
+      </div>
+      <div class="ar-header-middle d-none d-md-block">
+        <div class="container">
+
+          <div class="row">
+            <div class="ct-header-branding d-none d-lg-block  ">
+              <a class="logo-dark logo1" href="https://arraycom.co.in" title="arraycom" rel="home">
+                <img src="Images/logoblack.png" alt="Arryacom" /></a>
+              <a class="logo2 navbar-brand d-none" href="#">
+                <img src="Images/logowhite.png" alt="logo">
+              </a>
+            </div>
+            <div class="ct-header-holder d-none d-lg-block ">
+              <div class="ct-header-info-item ct-header-call">
+                <div class="h-item-icon">
+                  <span class="icon ">
+                    <i class="fa fa-phone fa-flip-horizontal"></i>
+                  </span>
+                </div>
+                <div class="h-item-meta">
+                  <label>Call Us: (210) 123-451</label> <a href="tel:+123456789" target="_self" class="h-item-link"></a>
+                </div>
+              </div>
+              <div class="ct-header-info-item ct-header-mail">
+                <div class="h-item-icon"> <span class="icon "><i class="fa fa-envelope"></i></span> </div>
+                <div class="h-item-meta"> <label>Mail us for support:</label> <span>info@arraycom.co.in</span> <a
+                    href="mailto:info@arraycom.co.in" target="_self" class="h-item-link"></a></div>
+              </div>
+              <div class="ct-header-info-item ct-header-address ">
+                <div class="h-item-icon"> <span class="icon"><i class="fa fa-map-marker"></i></span></div>
+                <div class="h-item-meta"> <label>Electronic Estate, GIDC Sector – 25,</label> <span>
+                    Gandhinagar,Gujarat</span></div> <a
+                  href="https://www.google.com/maps/place/Arraycom+India+Ltd/@23.2536884,72.6300814,17z/data=!4m5!3m4!1s0x395c2c09e301b40d:0xb6023d821b17d374!8m2!3d23.2536835!4d72.6322701"
+                  target="_blank" class="h-item-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ar-header-main header-main-bg">
+
+        <nav class="navbar navbar-default bg-dark navbar-expand-lg text-center ">
+
+          <a class="logo2 navbar-brand d-none" href="#">
+            <img src="Images/logoblack.png" alt="logo">
+          </a>
+          <a class="logo2 navbar-brand d-block d-lg-none" href="#">
+            <img src="Images/logowhite.png" alt="logo">
+          </a>
+          <!-- <span class="navbar-text d-none d-sm-block">
+                                          Engineering for a better tomorrow nnnn
+                                      </span> -->
+
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="bar">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <div id="navbar-close" class="hidden">
+              <i class="fa fa-close" style="font-size:24px"></i>
+            </div>
+             
+          </button>
+          <div class="collapse navbar-collapse in" id="navbarNav">
+            <ul class="navbar-nav mx-lg-auto ">
+              <li class="nav-item ml-md-5 active">
+                <a class="nav-link   " href="Index.html">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item dropdown ml-md-5">
+                <a class="nav-link" href="About.html" id="navbarDropdownMenuLink" aria-haspopup="true"
+                  aria-expanded="false">
+                  About Us
+                </a>
+
+              <li class="nav-item dropdown ml-md-5">
+                <a class="nav-link" href="Services.html" id="navbarDropdownMenuLink" aria-haspopup="true"
+                  aria-expanded="false">
+                  Services
+                </a>
+
+              </li>
+              <li class="nav-item  ml-md-5">
+                <a class="nav-link" href="Contact.html">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <div class="ct-header-holder ct-header-holder-mobile  d-block d-lg-none mx-auto" >
+              <div class="ct-header-info-item ct-header-call">
+                <div class="h-item-icon"> <i class="flaticon-telephone text-gradient"></i></div>
+                <div class="h-item-meta"> <label>Call Us: (210) 123-451</label> <span>(Sat - Thursday)</span></div> <a
+                  href="tel:+123456789" target="_self" class="h-item-link"></a>
+              </div>
+              <div class="ct-header-info-item ct-header-mail">
+                <div class="h-item-icon"> <i class="flaticonv3-envelope text-gradient"></i></div>
+                <div class="h-item-meta"> <label>Mail us for help:</label> <span>info@consultio.com</span></div> <a
+                  href="mailto:info@consultio.com" target="_self" class="h-item-link"></a>
+              </div>
+              <div class="ct-header-info-item ct-header-address">
+                <div class="h-item-icon"> <i class="flaticon-map text-gradient"></i></div>
+                <div class="h-item-meta"> <label>380 St Kilda Road,</label> <span>Melbourne, Australia</span></div> <a
+                  href="https://www.google.com/maps/place/380+St+Kilda+Rd,+Melbourne+VIC+3000,+Australia/"
+                  target="_blank" class="h-item-link"></a>
+              </div>
+            </div>
+          </div>
+
+        </nav>
+
       </div>
 
     </div>
-    <div class="Header_middle d-none d-lg-block">
-      <div class="container">
-        <div class="row mt-2 mb-2">
-          <div class="col-lg-6 my-auto">
-            <a class="logo-dark logo1" href="https://arraycom.co.in" title="arraycom" rel="home">
-              <img src="Images/logoblack.png" alt="Arryacom" /></a>
-          </div>
-           
-          <div class="col-lg-6 my-auto">
-            <div class="row justify-content-end">
-              <div class="col-lg-6">
-                <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
-              </div>
-              <div class="col-lg-6">
-                <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
-            <label class="label1">info@arraycom.co.in</label>  
-              </div>
-            </div>
-           
-          </div>
-           
-         
-        </div>
-
-      </div>
-      </div>
-      <nav class="navbar navbar-background navbar-expand-lg">
-        <div class="container">
-            
-              <a class="logo2 navbar-brand d-block d-lg-none" href="#">
-                <img src="Images/logowhite.png" alt="logo">
-              </a>
-            
-            <button class="navbar-toggler" type="button" 
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation" id="ChangeToggle">
-                    <div class="bar"    id="navbar-hamburger" >
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                    </div>
-                    <div id="navbar-close" class="hidden  closebtn">
-                      <i class="fa fa-close" style="font-size:24px;"></i>
-                    </div>
-            </button>
-  
-            <div class="collapse navbar-collapse"></div>
-  
-            <div class="collapse navbar-collapse  " 
-                 id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto justify-content-between text-black">
-                    <li class="nav-item active">
-                        <a class="nav-link" 
-                           href="#">
-                          Home 
-                          <span class="sr-only">
-                            (current)
-                          </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" 
-                           href="#">
-                          About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" 
-                         href="#">
-                        services
-                      </a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                           href="#">
-                          Contact
-                        </a>
-                    </li>
-                </ul>
-                <div class="header-info-mobile d-block d-lg-none">
-                  <div class="phone">
-                    <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
-                  </div>
-                  <div class="email mt-2">
-                    <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
-            <label class="label1">info@arraycom.co.in</label> 
-                  </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
   </header>
   <!-- header-->
   <!-- slider  <div class="owl-carousel owl-theme" id="owl-demo">-->
@@ -198,7 +202,7 @@
     <div class="top-content">
 
       <!-- Carousel -->
-      <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="1500">
 
         <ol class="carousel-indicators">
           <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -209,7 +213,7 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active ">
-            <img src="Images/slider/bgeng1.jpg" class="d-block w-100 img-fluid fadeInClass" alt="slide-img-1">
+            <img src="Images/slider/bgeng1.jpg" class="d-block w-100 img-fluid" alt="slide-img-1">
 
             <div class="carousel-caption carousel-caption-center ">
               <h2 class="main">Engineering a Better Tomorrow</h2>
@@ -218,7 +222,7 @@
           </div>
           <div class="carousel-item">
             <div class="img-gradient">
-              <img src="Images/slider/system-slide-1.png" class="d-block w-100 img-fluid fadeInClass" alt="slide-img-2">
+              <img src="Images/slider/system-slide-1.png" class="d-block w-100 img-fluid" alt="slide-img-2">
             </div>
 
             <div class="carousel-caption  text-center carousel-caption-left ">
@@ -235,7 +239,7 @@
           </div>
           <div class="carousel-item">
             <div class="img-gradient1">
-              <img src="Images/slider/tfm.jpg" class="d-block w-100 img-fluid fadeInClass" alt="slide-img-4">
+              <img src="Images/slider/tfm.jpg" class="d-block w-100 img-fluid" alt="slide-img-4">
 
             </div>
             <div class="carousel-caption  text-center carousel-caption-right  ">
@@ -253,7 +257,7 @@
           </div>
           <div class="carousel-item">
             <div class="img-gradient">
-              <img src="Images/slider/solarpower.jpg" class="d-block w-100 img-fluid fadeInClass" alt="slide-img-3">
+              <img src="Images/slider/solarpower.jpg" class="d-block w-100 img-fluid" alt="slide-img-3">
             </div>
             <div class="carousel-caption  text-center carousel-caption-left ">
 
@@ -466,10 +470,7 @@
           <div class="card-footer bg-lightgrey text-center text-danger">
             <a href="SI.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
-          <div class="card-img-overlay">
-            <img src="/Images/Divisions/SI1.jpg" class="img-fluid">
-            </div>       
-       </div>
+        </div>
       </div>
       <div class="col-lg-3 col-md-6 col-12">
         <div class="card text-dark bg-light">
@@ -487,9 +488,6 @@
           <div class="card-footer bg-lightgrey text-center text-danger">
             <a href="solar.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
-          <div class="card-img-overlay">
-            <img src="/Images/Divisions/Solar.jpg" class="img-fluid">
-            </div> 
         </div>
 
       </div>
@@ -506,9 +504,6 @@
           <div class="card-footer bg-lightgrey text-center text-danger">
             <a href="tfm.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
-          <div class="card-img-overlay">
-            <img src="/Images/Divisions/tfm.jpg" class="img-fluid">
-            </div> 
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-12">
@@ -526,9 +521,6 @@
           <div class="card-footer bg-lightgrey text-center text-danger">
             <a href="parking.html" class="btn bg-lightred btn-sm">Explore</a>
           </div>
-          <div class="card-img-overlay">
-            <img src="/Images/Divisions/parking.jpg" class="img-fluid">
-            </div> 
         </div>
       </div>
     </div>
