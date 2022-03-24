@@ -1,5 +1,5 @@
  
- 
+
 
 .carousel-caption-left,
 .carousel-caption-right {
@@ -116,6 +116,10 @@
   .carousel-caption-left {
     right: 0% !important;
     left: 0px !important;
+  }
+  .carousel-caption-left h2,.carousel-caption-right h2
+  {
+    text-align: center !important;
   }
   
   .carousel-caption-right {
