@@ -7,7 +7,7 @@ html { font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px; padding: 0
   box-sizing: border-box;
 }
 
-body { font-size: 14px; font-family: 'Fira Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400; -webkit-font-smoothing: antialiased;
+body {    font-size:calc(15px+0.5vw);  font-family: 'Fira Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400; -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; word-wrap: break-word;
         overflow-x: hidden; color: #333;position:relative; }
 
@@ -15,21 +15,41 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button { margin: 0; padd
 
 h1, h2, h3, h4, h5, h6 { line-height: 1.5; font-weight: inherit; }
 
-h1, h2, h3, .font-beyond { font-family: 'beyond_the_mountainsregular', sans-serif; }
+h1, h2, h3, .font-beyond { font-family: 'Fira Sans';}
 
 p { line-height: 1.7; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1 { font-size: 7.5em; line-height: 1.4; }
-
-h2 { font-size: 4em; line-height: 1.4; }
-
-h3 { font-size: 3em; }
-
-h4 {   font-size: 1.8em; }
-
-h5 { font-size: 1.3em; }
-
-h6 {  font-size: .95em; letter-spacing: 1px; }
+h1{
+  font-size:1.6em;
+  line-height:calc(30px+1vw); 
+}
+h2{
+  font-size:1.4em;
+  line-height:calc(26px+1vw);
+}
+h3{
+  font-size:1.2em;
+  line-height:calc(24px+1vw);
+}
+h4{
+  font-size:1em;
+  line-height:calc(22px+1vw);
+}
+h5{
+  font-size:18px;
+  line-height:calc(20px+1vw);
+}
+h1,h2,h3,h4,h5
+{
+  margin:0 0 calc(16px+1vw) 0;
+  
+  font-weight: 700;
+}
+p
+{
+  font-size:calc(14px+1vw);
+  line-height:calc(14pxw+1vw);
+}
 
  
 
@@ -1020,7 +1040,7 @@ z-index: 1;
   color: #2e282a;
   text-transform: uppercase;
   display: block;
-  font-size: 16px;
+  font-size: 0.95rem;
   margin: 0 0 7px 0;
 }
 
@@ -1028,7 +1048,8 @@ z-index: 1;
   color: #ee2e34;
   text-transform: capitalize;
   display: block;
-  font-size: 15px;
+  font-size: 0.75rem;
+  font-weight:700;
   margin-bottom: 15px;
 }
 
@@ -1550,7 +1571,7 @@ height:50vh;
 .footer-site .cta {
   -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
   box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
-  padding: 20px;
+  padding: 20px 10px 20px 10px !important;
   background-color: #f36c70;
   top: -60px;
   position: relative;
@@ -1993,7 +2014,7 @@ height:400px;
 }
    .ct-banner2 .ct-banner-holder
    {
-    padding: 15px 17px 15px;
+    padding: 20px 8px 20px;
     margin-left:0px;
     margin-right:0px;
    }
@@ -2014,11 +2035,17 @@ height:400px;
    }
    .services p 
    {
-     font-size:1.05em !important;
+    font-size: 1.1rem !important;
+    text-align: justify !important;
+    line-height: 1.7;
    }
    .teamsection .our-team
    {
      margin:0px !important;
+   }
+   .teamsection h4
+   {
+     padding-left:35px !important;
    }
    .our-team .title{
      font-size:12px;
@@ -2049,11 +2076,15 @@ height:400px;
    }
    .footer-site h2
    {
-    font-size:1.75em !important; 
+    font-size:1.5rem !important; 
    }
    .footer-site h3 
    {
      font-size:10px;
+   }
+   .footer-site .links li a 
+   {
+     font-size:0.65rem !important;
    }
    .footer-site .social li a
    {
@@ -2061,6 +2092,9 @@ height:400px;
    }
    .footer-site .social li a span{
      font-size:20px !important;
+   }
+   .carousel-item{
+     margin-top:60px !important;
    }
    .carousel-caption h2
    {
@@ -2072,8 +2106,9 @@ height:400px;
     padding-top: 0px;
    }
    .aboutus-section p{
-     line-height: 1.7;
-     font-size:1em;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    text-align: justify;
    }
    .aboutus-section h5
   {
@@ -2084,7 +2119,7 @@ height:400px;
     font-size:1.25rem;
   }
   .title-desc {
-    font-size: 1rem !important;
+    font-size: 1.25rem !important;
 }
 /**all services section ***/
 .img-content img{
@@ -2142,7 +2177,7 @@ height:400px;
 .carousel-item  img {
   height: auto;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
 }
 .img-gradient:after,.img-gradient1:after {
   content:'';
@@ -2189,11 +2224,11 @@ height:400px;
   font-weight:600;
 }
 .title-desc {
-  font-size: 1.1em !important;
-  line-height: 1.5;
+ 
+  font-size: 0.95rem !important;
+  line-height: 1.7;
   text-align: justify;
-  letter-spacing: -1.2px;
-   
+  letter-spacing: -0.9px;
 }
 .services .card
 {
@@ -2212,6 +2247,7 @@ height:400px;
  .aboutus-section
  {
    padding:5px 0px 5px 0px !important;
+   margin-top:1rem !important;
  }
 
  .ct-banner2 .ct-banner-image {
@@ -2226,8 +2262,8 @@ height:400px;
     padding: 40px 27px 20px !important;
     background-color: #fff !important;
      
-    margin-right: 25px !important;
-    margin-left: 25px !important;
+    margin-right: 0px !important;
+    margin-left: 15px !important;
      
 }
  
@@ -2249,9 +2285,10 @@ height:400px;
 }
 .aboutus-section  p
 {
-  font-size:1rem;
+  font-size:0.95rem;  
+  text-align: justify;
   font-weight:300;
-  line-height:2.1;
+  line-height:1.7;
 }
 .item--title  {
    
@@ -2299,8 +2336,9 @@ height:400px;
 text-align:left !important;
 }
 .card-text {
-  line-height: 2 !important;
-  font-size:16px !important;
+  line-height: 1.7 !important;
+  font-size:0.9rem !important;
+  text-align:justify !important;
 }
 .services1  .card-text
 {
