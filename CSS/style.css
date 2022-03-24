@@ -2189,9 +2189,11 @@ height:400px;
   font-weight:600;
 }
 .title-desc {
-  font-size: 1.05em !important;
-  line-height: 1.8;
+  font-size: 1.1em !important;
+  line-height: 1.5;
   text-align: justify;
+  letter-spacing: -1.2px;
+   
 }
 .services .card
 {
@@ -2263,7 +2265,9 @@ height:400px;
   margin-bottom: 28px ;
   font-weight: 600 ;
 }
- 
+ .ct-banner2 .ct-banner-holder{
+  padding: 40px 10px 20px !important;
+ }
 
 /*Counter***/
 .ct-info {
@@ -2346,6 +2350,10 @@ text-align:left !important;
   padding:10px 5px 10px 5px;
   border:2px solid #f36c70 !important;
   box-shadow:none;
+}
+.card-img-overlay {
+  top:0px !important;
+  padding:0px !important;
 }
 }
 
