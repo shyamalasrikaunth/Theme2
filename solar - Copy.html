@@ -26,7 +26,6 @@
         <link rel="icon" href="Images/favicon1.png" sizes="32x32">
         <link rel="icon" href="Images/favicon1.png" sizes="192x192">
         <link rel="stylesheet" href="CSS/bootstrap.min.css">
-          
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
           integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,11 +35,14 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
       
         <link rel="stylesheet" href="CSS/style.css">
-        <link rel="stylesheet" href="CSS/navbar.css">
         <link rel="stylesheet" href="CSS/slick.css">
         <link rel="stylesheet" href="CSS/slick-theme.css">
         <script src="https://kit.fontawesome.com/b7ab1e6218.js" crossorigin="anonymous"></script>
-     
+      <style>
+        ._download:before {
+    content: '\f220' !important;
+}
+      </style>
       </head>
 <body>
   <section id="pre-load" class="preloader">
@@ -53,119 +55,9 @@
 
   </section>
   <!-- pre loader-->
-  <header id="MainHeader" class="SiteHeader1">
-    <div class="top_bar  d-none d-lg-block">
-      <div class="container-fluid">
-        <div class="row">
 
-        </div>
-      </div>
-
-    </div>
-    <div class="Header_middle d-none d-lg-block">
-      <div class="container">
-        <div class="row mt-2 mb-2">
-          <div class="col-lg-6 my-auto">
-            <a class="logo-dark logo1" href="https://arraycom.co.in" title="arraycom" rel="home">
-              <img src="Images/logoblack.png" alt="Arryacom" /></a>
-          </div>
-           
-          <div class="col-lg-6 my-auto">
-            <div class="row justify-content-end">
-              <div class="col-lg-6">
-                <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
-              </div>
-              <div class="col-lg-6">
-                <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
-            <label class="label1">info@arraycom.co.in</label>  
-              </div>
-            </div>
-           
-          </div>
-           
-         
-        </div>
-
-      </div>
-      </div>
-      <nav class="navbar navbar-background navbar-expand-lg">
-        <div class="container">
-            
-              <a class="logo2 navbar-brand d-block d-lg-none" href="#">
-                <img src="Images/logowhite.png" alt="logo">
-              </a>
-            
-            <button class="navbar-toggler" type="button" 
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation" id="ChangeToggle">
-                    <div class="bar"    id="navbar-hamburger" >
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                      <span class="dot"></span>
-                    </div>
-                    <div id="navbar-close" class="hidden  closebtn">
-                      <i class="fa fa-close" style="font-size:24px;"></i>
-                    </div>
-            </button>
-  
-            <div class="collapse navbar-collapse"></div>
-  
-            <div class="collapse navbar-collapse  " 
-                 id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto justify-content-between text-black">
-                    <li class="nav-item active">
-                        <a class="nav-link" 
-                           href="#">
-                          Home 
-                          <span class="sr-only">
-                            (current)
-                          </span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" 
-                           href="#">
-                          About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" 
-                         href="#">
-                        services
-                      </a>
-                  </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                           href="#">
-                          Contact
-                        </a>
-                    </li>
-                </ul>
-                <div class="header-info-mobile d-block d-lg-none">
-                  <div class="phone">
-                    <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
-                  </div>
-                  <div class="email mt-2">
-                    <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
-            <label class="label1">info@arraycom.co.in</label> 
-                  </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-  </header>
   <!-- header-->
-  <!-- <header id="ar-masthead" class="site-header">
+  <header id="ar-masthead" class="site-header">
     <div class="headerwrap">
       <div class="ar-header-top  d-none d-md-block">
         <div class="container">
@@ -219,9 +111,9 @@
           <a class="logo2 navbar-brand d-block d-sm-none" href="#">
             <img src="Images/logowhite.png" alt="logo">
           </a>
-           <span class="navbar-text d-none d-sm-block">
+          <!-- <span class="navbar-text d-none d-sm-block">
                                           Engineering for a better tomorrow nnnn
-                                      </span>  
+                                      </span> -->
 
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -271,65 +163,62 @@
       </div>
 
     </div>
-  </header> -->
-      <!-- <div id="BannerSection container-fluid" class="banner">
+  </header>
+      <div id="BannerSection container-fluid" class="banner">
         <div class="row">
           <div class="col-12">
             <div class="img-content">
-              <img src="Images/Headerimages/parkingheader.jpg" class="img-fluid" alt="">
+              <img src="Images/Headerimages/solarpower.jpg" class="img-fluid" alt="">
             </div>
-           <div class='overlay'></div> 
+            <!-- <div class='overlay'></div> -->
             <div class="banner-content ">
-              <h1 class="text-left gradient-text">Smart Parking Solutions</h1>
+              <h1 class="text-left gradient-text">Solar Power Division</h1>
         
         
             </div>
           </div>
         </div>
        
-      </div> -->
-      <div class="jumbotron d-flex align-items-center parking_banner ">
- 
-        <div class="container text-center justify-content-center">
-      <h1>Smart Parking Solutions</h1>
-        </div>
       </div>
-      <section id="SI" class="SIsection mt-5">
+      <section id="solar" class="solarsection mt-5">
           <div class="container">
               <div class="row">
-                  <div class="col-md-8 pt-3 pb-2">
-                    <h2 class="solar-heading">Parking Solutions</h2>
+                  <div class="col-md-8">
+                    <h2 class="solar-heading">Solar Power Division</h2>
                     <div class="solar-desc">
-                        <p>Hassle free parking solution for your car and bike with smart technolgies equipped with QR codes and smart cards.</p>
-                        <p>Vehicle owners in the national capital Delhi will now be able to book parking slots via a mobile application in areas that fall under the South Delhi Municipal Corporation (SDMC).</p>
-                        <p>Currently all the parking slots are managed by contractors who collect the parking charges in Cash. However with a view to support digital India campaign, SDMC has awarded contract for digitalisation of parking spaces, where Arraycom India Limited is one of the implementation partners.</p>
+                        <p> Our Super Clean energy solutions are futuristic, Pollution free and delivers amazing performance.</p>
+                        <p>At Arraycom, we design, supply, install & commission Grid-Tied, off-grid & Hybrid Solar power plants for Residential, Commercial, industrial usage.</p>
+
+                        <p>Our design team has completed more than 1500 projects in designing and delivering Rooftop and ground mounted clean energy solutions. We have installed over 5MW in residential rooftop solar in Gujarat under government subsidy scheme.</p>
+                        <p>Our teams have rich experience in site surveys, Improvising designs, DISCOM approvals, material sourcing, Quality management, Installation and commissioning. We also undertake liaison with Government .We are accredited partners of GUVNL, GEDA & MNRE</p>
                     </div>
                     <div class="row pt-2">
-                        <div class="col-md-12">
-                            <img class="img-fluid tfmimg2 " src="Images/Divisions/parking/sdmc.jpg" />
-                        </div>
-                        
+                      <div class="col-md-6">
+                          <img class="img-fluid tfmimg1 " src="Images/Divisions/solar/1.jpg" />
+                      </div>
+                      <div class="col-md-6">
+                          <img class="img-fluid tfmimg1 " src="Images/Divisions/solar/3.jpg" />
+                      </div>
                   </div>
-                  <!--,,,,,-->
                   </div>
-                  <div class="col-md-4">
-                        <div class="divlist ">
+                  <div class="col-md-4 col-lg-4 col-12">
+                        <div class="divlist">
                             <div class="container">
                                 <ul class="divlists list-unstyled">
                                     <li >
-                                        <a href="solar.html" >Solar Power Division</a>
+                                        <a href="solar.html" class="active">Solar Power Division</a>
                                     </li>
                                     <li>
                                         <a href="SI.html">System Integration Division</a>
                                     </li>
                                     <li>
-                                        <a href="tfm.html" >Thick FIlm material Division</a>
+                                        <a href="tfm.html">Thick FIlm material Division</a>
                                     </li>
                                      
                                     <li>
-                                        <a href="parking.html" class="active">Smart Parking Solutions</a>
+                                        <a href="parking.html">Smart Parking Solutions</a>
                                     </li>
-                                     
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -345,28 +234,135 @@
                                 <h2 class="info-box-email"><a href="mailto:info@arraycom.co.in">info@arraycom.co.in</a></h2>
                             </div>
                         </div>
-                        <div class="container-fluid mt-5">
-                          <div class="row">
-                            <div class="col-12">
-                              <a href="https://www.arraycom.co.in/wp-content/uploads/2016/04/ArraycomCompanyProfile-SI-Division.pdf"
-                                target="_self" class="btn btnclass" style="width:100%;padding:20px"><i
-                                  class="fa fa-download"></i> Download company Profile
-                              </a>
+                       
+                        
+                          <div class="container-fluid mt-5">
+                            <div class="row">
+                              <div class="col-12">
+                                <a href="https://www.arraycom.co.in/wp-content/uploads/2016/04/ArraycomCompanyProfile-SI-Division.pdf"
+                                  target="_self" class="btn btnclass" style="width:100%;padding:20px"><i
+                                    class="fa fa-download"></i> Download company Profile
+                                </a>
 
+                              </div>
                             </div>
                           </div>
-                        </div>
+                             
+                          
+                         
+                         
+                         
                   </div>
               </div>
              
           </div>
         
-          
+         <div class="container mt-5">
+            <h2 class="solar-heading">Solutions we offer</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="div-nav-tabs mt-3">
+            
+                        <ul class="nav nav-tabs " role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#rooftop" role="tab" data-toggle="tab">Solar Power System</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pump" role="tab" data-toggle="tab">Solar Pumping Station</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#power" role="tab" data-toggle="tab">Solar Power Equipments</a>
+                            </li>
+                        </ul> 
+
+                        <div class="tab-content responsive">
+                            <div role="tabpanel" class="tab-pane active" id="rooftop">
+                                <div class="card-body">
+                                    <h5>Grid -Tied Solar system</h5>
+                                    <p>
+                                      The most popular options for all grid consumers. In which the Solar Panels generate DC Power which is converted to AC power using Grid tied Inverter. The generated power will be used for captive consumption and excess power will be fed into utility grid using net / gross meter.
+                                    </p>
+                                    <h5>Off-Grid</h5>
+                                    <p>
+                                        Off-grid systems work independently of the power grid but have batteries which can store the solar power generated by the system.
+                                    </p>
+                                    <h5>Hybrid System</h5>
+                                    <p>
+                                        This is the middle ground option between grid-tied and off-grid. This has a has an energy storage component, like most off-grid systems, but maintains a connection to the power grid.
+                                    </p>
+            
+            
+            
+            
+                                    </p>
+                                </div>
+            
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="pump">
+                                <div class="card-body">
+                                    <p>The system operates on power generated using solar PV (photovoltaic) system. </p>
+                                    <p>The photovoltaic array converts the solar energy into electricity, which is used for running
+                                        the motor pump set. </p>
+                                    <p>The pumping system draws water from the open well, bore well, stream, pond, canal etc.</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img class="img-fluid" src="Images/Divisions/solar-pumping-system.jpg">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img class="img-fluid" src="Images/Divisions/solarpump2.jpg">
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="power">
+                                <div class="card-body">
+                                    <p>We supply the following solar powered equipments. </p>
+                                    <p><b>Grid Tied String Inverters</b> for Single Phase and Three Phase. These inverters are
+                                        manufactured with Components from world class suppliers, Automotive class PCB technology,
+                                        Optimized with thermal design, Integrated enclosure & silicone rubber sealing, 1000 hours of
+                                        neutral salt spray testing, user friendly interface and intelligent monitoring system.</p>
+                                    <p><b>Solar pump controllers</b> for uninterrupted operation of solar pumps.</p>
+                                    <p><b>Solar Monitoring solutions</b> online solar plant monitoring system.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-4">
+                <div class="solar-area slider">
+                    <div class="slide" >.
+                        <img src='Images/Divisions/solar/1.jpg'   alt="">
+                   </div>
+                        <div class="slide">
+                             
+                            <img src='Images/Divisions/solar/2.jpg'   alt=""/>
+                       </div>
+                        <div class="slide">
+                            <img src='Images/Divisions/solar/3.jpg'    alt="">
+                      </div>
+                        
+                        <div class="slide" >
+                            <img src='Images/Divisions/solar/4.jpg'   alt="">
+                      </div>
+                        <div class="slide" >
+                            <img src='Images/Divisions/solar/5.jpg'   alt="">
+                        </div>
+                        <div class="slide" >
+                          <img src='Images/Divisions/solar/6.jpeg'   alt="">
+                      </div>
+                     
+    
+                    
+                </div>
+            </div>
+            </div>
+         </div>
         
         
     </section>
      
-           <!-- client-->
+       <!-- client-->
   <section id="Clientsection mb-5" class="Client">
     <div class="owl-carousel owl-theme" id="owl-demo">
       <div class="item"> <img src="Images/Client/1.png" /> </div>
@@ -446,23 +442,31 @@
   </div>
 </footer>
 <!-- footer-->
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  <!-- script section -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+  <!-- <script>
+  $(function(){
+    $(document).ready(function(){
+        var height = $(window).height();
+var width = $(window).width();
+var header =$('.site-header').height();
+var finalwidth =height-header;
+// alert(finalwidth);
+$('.carousel-item img').css('height',''+finalwidth+'px');
+});
+    });
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="Js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="Js/main.js"></script>
+
 </body>
 </html>

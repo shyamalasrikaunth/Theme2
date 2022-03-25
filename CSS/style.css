@@ -565,6 +565,50 @@ text-align:right !important;
      
 /***slick slider css***/
 /**banner section **/
+.jumbotron
+{
+  color: #fff;
+  height: 450px !important;
+  animation: shrink 20s infinite alternate;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.service_banner {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/header2.jpg");
+
+
+}
+.SI_banner {
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/SI.jpg");
+
+
+}
+.Solar_banner
+{
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/solarpower.jpg");
+}
+.tfm_banner
+{
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/tfm.jpg");
+}
+.parking_banner
+{
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/parkingheader.jpg");
+}
+.service_banner h1,.SI_banner h1,.Solar_banner h1,.parking_banner h1,.tfm_banner h1{
+font-size:3em !important;
+}
+@keyframes shrink {
+0% {
+  background-size: 110% 110%;
+}
+100% {
+  background-size: 100% 100%;
+}
+}
+
+
 .banner 
 {
   position: relative;
@@ -590,7 +634,7 @@ text-align:right !important;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
- 
+ height:50vh;
 }
 .banner-content h1{
 text-align: center;
@@ -1635,7 +1679,8 @@ height:50vh;
  .solar-desc p
  {
    font-size:1.15em !important;
-   line-height: 1.7;
+   line-height: 1.7;text-align: justify;
+   word-break:break-all;
  }
  .solar-desc ul
  {
@@ -2175,6 +2220,9 @@ height:400px;
     font-size: 1.3rem;
     font-weight: 400;
 }
+.divlists li a:before {
+  margin-right:0px !important;
+}
  }
 /**end All Services section 
  }
@@ -2369,8 +2417,9 @@ text-align:left !important;
 {
   line-height: 1.8 !important;
   font-size:15px !important;
-  text-align:justify !important;
-  text-justify: distribute-all-lines;
+   
+   text-align:left !important;
+ word-break:break-all;
 }
  .item--title a
  {
@@ -2411,13 +2460,37 @@ text-align:left !important;
 .services1 .card
 {
   padding:10px 5px 10px 5px;
-  border:2px solid #f36c70 !important;
-  box-shadow:none;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .55s ease-in-out;
+  /* border:2px solid #f36c70 !important;
+  box-shadow:none; */
 }
 .card-img-overlay {
   top:0px !important;
   padding:0px !important;
 }
+.div-nav-tabs ul li
+  {
+    width:100% !important;
+    padding:20px;
+  }
+  .div-nav-tabs ul li a{
+    color:#f36c70 !important;
+    background:#dddddd;
+  }
 }
+ 
+.divisions .card-title{
+  line-height: 1.5 !important;
+    font-size: 1em !important;
+    font-weight: 800 !important;
+}
+.divisions p
+{
+  text-align: justify;
+  line-height:1.5;
+  font-size: 1em !important;
+}
+ 
 
   
