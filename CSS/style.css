@@ -39,6 +39,11 @@ h5{
   font-size:18px;
   line-height:calc(20px+1vw);
 }
+h6{
+  font-size:16px;
+  font-weight:800;
+  line-height:calc(18px+1vw);
+}
 h1,h2,h3,h4,h5
 {
   margin:0 0 calc(16px+1vw) 0;
@@ -715,8 +720,8 @@ background:rgba(0, 0, 0, 0.6);
     -ms-border-radius: 30px 30px 0 0;
     -o-border-radius: 30px 30px 0 0;
     border-radius: 30px 30px 0 0;
-    margin-right: 75px;
-    margin-left: 65px;
+    margin-right: 40px;
+    margin-left: 30px;
     position: relative;
     z-index: 1;
     -webkit-box-shadow: 0 8px 65px rgb(12 12 12 / 19%);
@@ -865,6 +870,12 @@ background:rgba(0, 0, 0, 0.6);
   background: #f36c70 !important;
   color: #fff !important;
 }
+ 
+ .service_section .card-title
+ {
+   font-size:1.2em !important;
+
+ }
 .servicessection
 {padding:70px 0px 70px 0px;
     background:#fff;
@@ -1082,8 +1093,9 @@ z-index: 1;
 }
 
 .teamsection {
-  background: #e3e3e3;
-  ;
+  /* background: #e3e3e3; */
+  background:white;
+  
 
 }
 
@@ -1136,12 +1148,16 @@ z-index: 1;
 {
   font-size:1.25rem !important;
 }
+.services h4
+{
+  color: white !important;
+}
 h4 {
    
    
   color: #f36c70;
-  
-  font-size: 20px;
+  padding-top:10px;
+  font-size: 18px;
   max-width: 300px;
   position: relative;
 }
@@ -1192,6 +1208,8 @@ h4:after {
   font-size:1em;
   color:#333;
   line-height: 1.4;
+ 
+  
 }
 .services .card .img1
 {
@@ -2002,6 +2020,9 @@ height:400px;
 /*** media query for top bar for devices from tablets to 13 inch notebook**/
 @media (min-width: 481px) and (max-width: 768px)  
  {
+  h6{
+    font-size: 23px !important;
+      }
   .ct-header-mobile .ct-header-info-item .h-item-meta
   {
  color:white !important;
@@ -2160,6 +2181,9 @@ height:400px;
 /**small size devices***/
  @media only screen and (max-width: 575px) {
 
+ h6{
+font-size: 21px !important;
+  }
   .carousel-caption,.carousel-caption-left,.carousel-caption-right,.carousel-caption-center {
     transform: translateY(-50%) !important;
     bottom:initial !important;
