@@ -1679,8 +1679,7 @@ height:50vh;
  .solar-desc p
  {
    font-size:1.15em !important;
-   line-height: 1.7;text-align: justify;
-   word-break:break-all;
+   line-height: 1.7; 
  }
  .solar-desc ul
  {
