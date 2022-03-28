@@ -575,26 +575,26 @@ text-align:right !important;
   background-position: center center;
 }
 .service_banner {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/header2.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("Images/Headerimages/header2.jpg");
 
 
 }
 .SI_banner {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/SI.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("Images/Headerimages/SI.jpg");
 
 
 }
 .Solar_banner
 {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/solarpower.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("Images/Headerimages/solarpower.jpg");
 }
 .tfm_banner
 {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/tfm.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/mages/Headerimages/tfm.jpg");
 }
 .parking_banner
 {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("/Images/Headerimages/parkingheader.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("Images/Headerimages/parkingheader.jpg");
 }
 .service_banner h1,.SI_banner h1,.Solar_banner h1,.parking_banner h1,.tfm_banner h1{
 font-size:3em !important;
