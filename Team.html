@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/navbar.css">
       
       
       
@@ -46,7 +47,7 @@
       <style>
           .main {
     width: 70vw;
-    height: 60vw;
+    
     margin: auto;
     background-color: white;
     position: relative;
@@ -62,7 +63,7 @@
 
 .head {
     font-size: 2vw;
-    font-family: 'Saira Semi Condensed', sans-serif
+     
 }
 
 .name {
@@ -76,7 +77,12 @@
   .name .fa {
     color: #858789
 }
-
+.post b{
+  
+    
+        color:#f36c70 !important;
+     
+}
 .row {
     padding-top: 1vw
 }
@@ -84,7 +90,7 @@
 @media only screen and (max-width: 425px) {
     .main {
         width: 90vw;
-        height: 525vw;
+       
     }
 
     .circle {
@@ -97,11 +103,8 @@
     .name {
         position: relative;
         top: 2vw;
-        font-size: 5vw
-    }
-
-    .post {
-        font-size: 6vw
+        font-size: 5vw;
+  
     }
 
     .head {
@@ -109,124 +112,137 @@
     }
     .main p {
         line-height:2;
-    };
+        text-align: justify;
+       
+    }
+    .ca
+    {
+      word-break: break-all;
+      word-wrap:word-break;
+    }
 }
       </style>
        
       </head>
 <body>
-    <header id="ar-masthead" class="site-header">
-        <div class="headerwrap">
-          <div class="ar-header-top  d-none d-md-block">
-            <div class="container">
-              <div class="row">
-    
+   <!-- header-->
+   <header id="MainHeader" class="SiteHeader1">
+    <div class="top_bar d-none d-lg-block">
+      <div class="container-fluid">
+        <div class="row">
+
+        </div>
+      </div>
+
+    </div>
+    <div class="Header_middle d-none d-lg-block">
+      <div class="container">
+        <div class="row mt-2 mb-2">
+          <div class="col-lg-5 col-md-5 col-sm-7 my-auto">
+            <a class="logo-dark logo1" href="https://arraycom.co.in" title="arraycom" rel="home">
+              <img src="Images/logoblack.png" alt="Arryacom" /></a>
+          </div>
+           
+          <div class="col-lg-7 col-md-7 col-sm-7 my-auto">
+            <div class="row justify-content-end">
+              <div class="col-lg-6">
+                <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
+              </div>
+              <div class="col-lg-6">
+                <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
+            <label class="label1">info@arraycom.co.in</label>  
               </div>
             </div>
+           
           </div>
-          <div class="ar-header-middle d-none d-md-block">
-            <div class="container">
-    
-              <div class="row">
-                <div class="ct-header-branding">
-                  <a class="logo-dark" href="https://arraycom.co.in" title="arraycom" rel="home">
-                    <img src="Images/logoblack.png" alt="Arryacom" /></a>
-                </div>
-                <div class="ct-header-holder">
-                  <div class="ct-header-info-item ct-header-call">
-                    <div class="h-item-icon">
-                      <span class="icon ">
-                        <i class="fa fa-phone fa-flip-horizontal "></i>
-                      </span>
-                    </div>
-                    <div class="h-item-meta">
-                      <label>Call Us: (210) 123-451</label> <a href="tel:+123456789" target="_self" class="h-item-link"></a>
-                    </div>
-                  </div>
-                  <div class="ct-header-info-item ct-header-mail">
-                    <div class="h-item-icon"> <span class="icon "><i class="fa fa-envelope"></i></span> </div>
-                    <div class="h-item-meta"> <label>Mail us for support:</label> <span>info@arraycom.co.in</span> <a
-                        href="mailto:info@arraycom.co.in" target="_self" class="h-item-link"></a></div>
-                  </div>
-                  <div class="ct-header-info-item ct-header-address">
-                    <div class="h-item-icon"> <span class="icon"><i class="fa fa-map-marker"></i></span></div>
-                    <div class="h-item-meta"> <label>Electronic Estate, GIDC Sector – 25,</label> <span>
-                        Gandhinagar,Gujarat</span></div> <a
-                      href="https://www.google.com/maps/place/Arraycom+India+Ltd/@23.2536884,72.6300814,17z/data=!4m5!3m4!1s0x395c2c09e301b40d:0xb6023d821b17d374!8m2!3d23.2536835!4d72.6322701"
-                      target="_blank" class="h-item-link"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="ar-header-main header-main-bg">
-    
-            <nav class="navbar navbar-default bg-dark navbar-expand-sm text-center ">
-    
-              <a class="logo2 navbar-brand d-none" href="#">
-                <img src="Images/logoblack.png" alt="logo">
-              </a>
-              <a class="logo2 navbar-brand d-block d-sm-none" href="#">
+           
+         
+        </div>
+
+      </div>
+      </div>
+      <nav class="navbar navbar-background navbar-expand-lg">
+        <div class="container-fluid">
+            
+              <a class="logo2 navbar-brand d-block d-lg-none" href="#">
                 <img src="Images/logowhite.png" alt="logo">
               </a>
-              <!-- <span class="navbar-text d-none d-sm-block">
-                                              Engineering for a better tomorrow nnnn
-                                          </span> -->
-    
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="bar">
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-    
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item ml-md-5 active">
-                    <a class="nav-link   " href="Index.html">
-                      Home
-                    </a>
+            
+            <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation" id="ChangeToggle">
+                    <div class="bar"    id="navbar-hamburger" >
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+                    <div id="navbar-close" class="hidden  closebtn">
+                      <i class="fa fa-close" style="font-size:24px;"></i>
+                    </div>
+            </button>
+  
+            <div class="collapse navbar-collapse"></div>
+  
+            <div class="collapse navbar-collapse  " 
+                 id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto justify-content-between text-black">
+                    <li class="nav-item active">
+                        <a class="nav-link" 
+                           href="#">
+                          Home 
+                          <span class="sr-only">
+                            (current)
+                          </span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" 
+                           href="About.html">
+                          About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" 
+                         href="Services.html">
+                        services
+                      </a>
                   </li>
-                  <li class="nav-item dropdown ml-md-5">
-                    <a class="nav-link" href="About.html" id="navbarDropdownMenuLink" aria-haspopup="true"
-                      aria-expanded="false">
-                      About Us
-                    </a>
-    
-                  <li class="nav-item dropdown ml-md-5">
-                    <a class="nav-link" href="Services.html" id="navbarDropdownMenuLink" aria-haspopup="true"
-                      aria-expanded="false">
-                      Services
-                    </a>
-    
-                  </li>
-                  <li class="nav-item  ml-md-5">
-                    <a class="nav-link" href="Contact.html">
-                      Contact
-                    </a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="Contact.html">
+                          Contact
+                        </a>
+                    </li>
                 </ul>
-              </div>
-    
-            </nav>
-    
-          </div>
-    
+                <div class="header-info-mobile d-block d-lg-none">
+                  <div class="phone">
+                    <span class="icon" ><i class="fa fa-phone fa-flip-horizontal circle-icon"></i></span><label class="label1">+91 9327035105</label>  
+                  </div>
+                  <div class="email mt-2">
+                    <span class="icon"><i class="fa fa-envelope circle-icon"></i></span> 
+            <label class="label1">info@arraycom.co.in</label> 
+                  </div>
+                </div>
+            </div>
         </div>
-      </header>
-    <div class="main z-depth-3">
-        <center>
-            <p class="head">MEET OUR TEAM</p>
-        </center><br>
-        <div class="row light-blue lighten-5 z-depth-4 pb-3">
+    </nav>
+
+  </header>
+  <!-- header-->
+    <div class="main z-depth-3 mb-5 mt-5 ">
+       
+        <div class="container">
+          
+          <div class="row light-blue lighten-5 z-depth-4 pb-3">
             <div class="col-sm-3"> <img class="circle" src="Images/team/New folder/G_2.png"> </div>
             <div class="col-sm-9">
                 <p class="name">Mrs.Gorsi Parekh &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter"></i> &nbsp; <i class="fa fa-linkedin"></i></p>
@@ -249,10 +265,12 @@
             <div class="col-sm-9">
                 <p class="name">Ms.Vidhi Shah &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter"></i> &nbsp; <i class="fa fa-linkedin"></i></p>
                 <p class="post"><b>Independent Director</b></p>
-                <p>Member of ICAI,All India Ranker and a gold medalist, with experience of more than a decade in strategic management,information-systems,taxation,listing of foreign currency bonds,audit assurance,statutory audits,FEMA,Mergers,Restructuring and regulatory adherence management.</p>
+                <p class="CA">Member of ICAI,All India Ranker and a gold medalist, has experience of more than a decade in varied areas like strategic management,information-systems,taxation,listing of foreign currency bonds,statutory audits,audit assurance,Restructuring and regulatory adherence managementFEMA,Mergers .</p>
                 <p>She acts as a mentor to the Company in improving Corporate credibility, governance standards and risk management.</p>
             </div>
         </div>
+        </div>
+    
     </div>
      <!-- client-->
   <section id="Clientsection mb-5" class="Client">
