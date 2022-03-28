@@ -568,7 +568,7 @@ text-align:right !important;
 .jumbotron
 {
   color: #fff;
-  height: 450px !important;
+  height: 100vh !important;
   animation: shrink 20s infinite alternate;
   background-repeat: no-repeat;
   background-size: cover;
