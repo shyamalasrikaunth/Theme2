@@ -1,0 +1,335 @@
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+     /***about page***/
+
+     .label1 
+     {
+       color:white;
+     }
+     .aboutus-section 
+     {
+       padding:0px;
+     }
+     .carousel-item{
+      margin-top:72px !important;
+    }
+   
+    .carousel-caption h1 {
+     font-size: 2.25rem;
+     font-weight: 600;
+     padding-top: 0px;
+    }
+     .carousel-caption-left {
+        right: 0% !important;
+        left: 0px !important;
+      }
+      .carousel-caption-left h2,.carousel-caption-right h2
+      {
+        text-align: center !important;
+      }
+      .carousel-caption-center h2
+      {
+        text-align: center !important;
+      }
+      .carousel-caption-right {
+        left: 0% !important;
+        right: 0px !important;
+      }
+      .carousel-caption h2{
+        font-size:1.55rem !important;
+        font-weight:600;
+        color:#dddddd;
+      }
+      .main
+      {
+        font-size:0.9em;
+        font-weight:700;
+      }
+     
+      .carousel-item  img {
+       
+        width: 100% !important;
+        height: 50vh;
+      }
+     
+    .carousel-indicators li {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 40px 10px 10px 10px;
+      text-indent: 0;
+      cursor: pointer;
+      border: none;
+      border-radius: 60%;
+      background-color: white;
+      box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+      
+    }
+    .carousel-indicators .active {
+      width: 10px;
+      height: 10px;
+      margin: 40px 10px 10px 10px;
+      background-color: #FD8469;
+    }
+    
+    .navbar-background
+    {
+    width:100% !important;
+    } 
+
+    .img-gradient:after,.img-gradient1:after {
+      content:'';
+      position:absolute;
+      right:0; top:-20px;
+      width:100%; height:100%;
+      display:inline-block;
+      background: -moz-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%)!important; /* FF3.6+ */
+      background: -webkit-gradient(color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5)))!important; /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Opera 11.10+ */
+      background: -ms-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* IE10+ */
+      background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ) !important; /* IE6-9 */
+    }
+     
+
+    /**aboutsection**/
+ 
+ 
+.ct-banner2 .ct-banner-holder{
+  padding:0px;
+  margin:-87px 0px 0px 0px;
+}
+.item--title 
+{
+font-size:25px;
+}
+.rs-count, .plus {
+  font-size: 40px;
+}
+.ct-banner-title
+{
+  font-size:1.25rem;
+}
+.about-text
+{
+  line-height: 1.7;
+  font-size: 15px;
+  font-weight: 400;
+}
+.title-desc {
+  font-size: 15px !important;
+  line-height: 2 !important;
+  padding: 0px 6px 0px 2px;
+}
+.item---title
+{
+  font-size:24px !important;
+}
+.ct-heading-divider span
+{
+  width:75px !important;
+}
+     /****services page*****/
+
+
+     /****contactus page*****/
+
+
+  }
+  @media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
+    .label1 
+     {
+       color:white;
+     }
+     .aboutus-section 
+     {
+       padding:0px;
+     }
+     .carousel-item{
+      margin-top:72px !important;
+    }
+   
+    .carousel-caption h1 {
+     font-size: 2.25rem;
+     font-weight: 600;
+     padding-top: 0px;
+    }
+     .carousel-caption-left {
+        right: 0% !important;
+        left: 0px !important;
+      }
+      .carousel-caption-left h2,.carousel-caption-right h2
+      {
+        text-align: center !important;
+      }
+      .carousel-caption-center h2
+      {
+        text-align: center !important;
+      }
+      .carousel-caption-right {
+        left: 0% !important;
+        right: 0px !important;
+      }
+      .carousel-caption h2{
+        font-size:1.55rem !important;
+        font-weight:600;
+        color:#dddddd;
+      }
+      .main
+      {
+        font-size:0.9em;
+        font-weight:700;
+      }
+     
+      .carousel-item  img {
+       
+        width: 100% !important;
+        height: 50vh;
+      }
+     
+    .carousel-indicators li {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 40px 10px 10px 10px;
+      text-indent: 0;
+      cursor: pointer;
+      border: none;
+      border-radius: 60%;
+      background-color: white;
+      box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+      
+    }
+    .carousel-indicators .active {
+      width: 10px;
+      height: 10px;
+      margin: 40px 10px 10px 10px;
+      background-color: #FD8469;
+    }
+    
+    .navbar-background
+    {
+    width:100% !important;
+    } 
+
+    .img-gradient:after,.img-gradient1:after {
+      content:'';
+      position:absolute;
+      right:0; top:-20px;
+      width:100%; height:100%;
+      display:inline-block;
+      background: -moz-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%)!important; /* FF3.6+ */
+      background: -webkit-gradient(color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5)))!important; /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient( rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* Opera 11.10+ */
+      background: -ms-linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%) !important; /* IE10+ */
+      background: linear-gradient(rgba(0, 0, 0, 0.5) 50%, transparent 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ) !important; /* IE6-9 */
+    }
+     
+
+    /**aboutsection**/
+ 
+ 
+.ct-banner2 .ct-banner-holder{
+  padding:0px;
+  margin:-90px 10px 0px 10px;
+}
+.item--title 
+{
+font-size:24px;
+}
+.rs-count, .plus {
+  font-size: 40px;
+}
+.about-text
+{
+  line-height: 1.7;
+  font-size: 1.15em;
+  font-weight: 400;
+}
+.title-desc {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+}
+
+.item---title
+{
+  font-size:1.5em !important;
+}
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .navbar-background
+    {
+    width:100% !important;
+    } 
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and  (max-device-width : 1024px) {
+   
+    .img-gradient1:after {
+      content:'';
+      position:absolute;
+      right:0; top:0px;
+      padding-top:20px;
+      width:100%; height:100%;
+      display:inline-block;
+      background: -moz-linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(-75deg,rgba(0, 0, 0, 0.5) 50%, transparent 50%); /* IE10+ */
+      background: linear-gradient(-75deg, rgba(0, 0, 0, 0.5) 50%, transparent 50%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    }
+    .navbar-background
+    {
+      width:100% !important;
+    } 
+    .label1 
+    {
+      color:white;
+    }
+    .aboutus-section 
+    {
+      padding:0px;
+    }
+    .carousel-item{
+     margin-top:70px !important;
+   }
+   .carousel-caption h2
+   {
+     font-size:2em;
+   }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-device-width : 1200px) {
+    .navbar-background
+{
+  width:100% !important;
+} 
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    .navbar-background
+{
+width:100% !important;
+
+} 
+.label1 
+{
+  color:black;
+}.main 
+{
+  font-size:3em !important;
+}
+  }
+  
