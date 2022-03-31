@@ -35,7 +35,10 @@
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/style1.css">
   <link rel="stylesheet" href="CSS/navbar.css">
+  <link rel="stylesheet" href="CSS/carousel.css">
+  <link rel="stylesheet" href="CSS/mediaquery.css">
 
 
 
@@ -298,7 +301,7 @@
       </div>
       </div>
       <nav class="navbar navbar-background navbar-expand-lg">
-        <div class="container">
+        <div class="container-fluid">
             
               <a class="logo2 navbar-brand d-block d-lg-none" href="#">
                 <img src="Images/logowhite.png" alt="logo">
@@ -310,7 +313,7 @@
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false" 
                     aria-label="Toggle navigation" id="ChangeToggle">
-                    <div class="bar"    id="navbar-hamburger" >
+                    <!-- <div class="bar"    id="navbar-hamburger" >
                       <span class="dot"></span>
                       <span class="dot"></span>
                       <span class="dot"></span>
@@ -320,10 +323,15 @@
                       <span class="dot"></span>
                       <span class="dot"></span>
                       <span class="dot"></span>
-                    </div>
-                    <div id="navbar-close" class="hidden  closebtn">
-                      <i class="fa fa-close" style="font-size:24px;"></i>
-                    </div>
+                    </div> -->
+                    <div    id="navbar-hamburger" >
+                     <i class="fas fa-bars" style="color:#f36c70; font-size:36px;"></i>
+                     </div>
+                     <div id="navbar-close" class="hidden  closebtn">
+                     <i class="fa fa-close" style=" color:#f36c70;font-size:24px;    margin-left: 23px;
+                     margin-top: -26px;"></i>
+                     </div>
+                   
             </button>
   
             <div class="collapse navbar-collapse"></div>
@@ -333,7 +341,7 @@
                 <ul class="navbar-nav mr-auto justify-content-between text-black">
                     <li class="nav-item active">
                         <a class="nav-link" 
-                           href="Index.html">
+                           href="#">
                           Home 
                           <span class="sr-only">
                             (current)
@@ -388,7 +396,7 @@
           <h2 class="title-heading title-heading-services">We engineer best in class solutions</h2>
         </div>
         <div class="col-lg-6 col-12">
-          <div class="title-desc title-desc-services">
+          <div class="title-desc title-desc-services d-none d-lg-block">
             We have vast experience across system integration,eco-friendly manufacturing,desigining and delivering
             renewable solutions,and innovative IT applications for like parking,security,online education
           </div>
@@ -581,15 +589,7 @@
     integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="Js/main.js"></script>
-  <script>
-   
-  $('#ChangeToggle').click(function() {
-    
-    $('#navbar-hamburger').toggleClass('hidden');
-    $('#navbar-close').toggleClass('hidden');  
-  });
  
-  </script>
 </body>
 
 </html>

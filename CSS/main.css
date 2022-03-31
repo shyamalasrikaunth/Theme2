@@ -1,0 +1,302 @@
+:root { 
+    
+    --bg-color: #FFFFFF ;
+    --default-primary-color:#f36c70;
+    --default-font-color:#6b6a6a;
+    --bg-color-sec:#d83030;
+    --default-hover-color:var(--bg-primary-color);
+    --default-secondary-color:#858789;
+    --default-para-color:#bbbbbb;
+    --heading-color:var(--bg-primary-color);
+    --bg-dark:#333333;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
+ 
+html { font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px; padding: 0px; touch-action: manipulation;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {  
+
+    font-family: 'Fira Sans', sans-serif; 
+    min-height:100vh;
+    
+    font-size:1.125em;
+    line-height:1.6;
+    background-color: var(--bg-color);
+    color:var(--default-font-color);
+    
+    
+    
+    
+    
+    font-size:calc(15px+0.5vw);  width: 100%; height: 100%; margin: 0; font-weight: 400; -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;   
+        overflow-x: hidden; color: #333;position:relative; }
+        h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button { margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.5; font-weight: inherit;font-family: 'Fira Sans'; }
+
+p { line-height: 1.7; font-size: clamp(1rem,1.25vw,1.25rem); font-weight: 400; color:var(--default-para-color); }
+
+/* h1{
+    font-size:1.6em;
+    line-height:calc(30px+1vw); 
+  }
+  h2{
+    font-size:1.4em;
+    line-height:calc(26px+1vw);
+  }
+  h3{
+    font-size:1.2em;
+    line-height:calc(24px+1vw);
+  }
+  h4{
+    font-size:clamp(2rem,5vw,5rem);
+    line-height:calc(22px+1vw);
+    color:var(--heading-color);
+  }
+  h5{
+    font-size:18px;
+    line-height:calc(20px+1vw);
+  }
+  h6{
+    font-size:16px;
+    font-weight:800;
+    line-height:calc(18px+1vw);
+  }
+  h1,h2,h3,h4,h5
+  {
+    margin:0 0 calc(16px+1vw) 0;
+    
+    font-weight: 700;
+  }
+  p
+  {
+    font-size:calc(14px+1vw);
+    line-height:calc(14pxw+1vw);
+    color:var(--default-para-color);
+  }
+   */
+   
+  
+  a:focus, a:active, a:hover,
+  button:focus, button:active, button:hover,
+  a b.light-color:hover { text-decoration: none; color: #f36c70;}
+  
+  b {  font-weight: 700; }
+  
+  img { width: 100%;}
+  
+   
+  
+  span { display: inline-block; }
+  
+  button { outline: 0; border: 0; background: none; cursor: pointer; }
+  
+  .icon { font-size: 1.1em;display: inline-block;line-height: inherit; }
+  
+  input:focus,
+textarea:focus { outline-color: #f36c70; }
+
+::placeholder { color: #aaa; font-weight: 700; }
+
+:-ms-input-placeholder { color: #aaa; font-weight: 700; }
+
+:-ms-input-placeholder { color: #aaa; font-weight: 700; }
+
+.card { border-radius: 0px; border: 0px; background: none; box-shadow: none; }
+
+.card .bg-white {
+        height: 100%;
+        border-radius: 2px;
+        box-shadow: 1px 1px 20px -10px rgba(0, 0, 0, .3);
+}
+.card h4
+{
+  color:white;
+}
+.card i { font-size: 1.2em;}
+.heading
+{
+    font-size:clamp(2rem,5vw,5rem);
+    line-height:calc(22px+1vw);
+    color:var(--heading-color);
+
+}
+img {
+    width: 100%;
+    
+    object-fit: cover;
+    object-position: bottom;
+  }
+/**preload**/
+@keyframes loaderpulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  @keyframes loaderspin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  @-webkit-keyframes loaderspin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  #pre-load {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 9999;
+  }
+  .loader .loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ebebec;
+    border-radius: 50%;
+  }
+  .loader .loader-container:before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-top: 4px solid #f00c46;
+    border-radius: 50%;
+    animation: loaderspin 1.8s infinite ease-in-out;
+    -webkit-animation: loaderspin 1.8s infinite ease-in-out;
+  }
+  .loader .loader-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    text-align: center;
+  }
+  .loader .loader-icon img {
+    animation: loaderpulse alternate 900ms infinite;
+    width: 50px;
+  }
+/***top bar ***/
+.top_bar {
+    background: var(--bg-dark);
+    
+  }
+/***header****/
+
+
+.Header_middle {
+    background: white;
+  }
+  
+  .header-brand {
+    margin: 15px;
+    position: relative;
+    flex-grow: 1;
+    opacity: 1;
+  
+  }
+  
+  .header-brand img {
+    max-width: 160px;
+  
+    -webkit-transition: all 300ms linear 0ms;
+    -khtml-transition: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -ms-transition: all 300ms linear 0ms;
+    -o-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+  }
+  .responsive_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+}
+
+  .header-holder {
+    margin: 15px;
+     
+  }
+  .item-icon{
+    line-height:1;
+  }
+  .icon  i
+  {
+     color:white; 
+  font-size: 25px;
+  margin-right: 0px;
+  }
+  .item-meta
+  {
+    margin-right: 12px;
+  }
+   
+  .label1
+  {
+    font-size:1.05em;
+    font-weight: 500;
+  }
+  .icon
+  {
+      padding:0.5em;
+  }
+  .circle-icon {
+  background: #d83030 ;
+  padding:10px;
+  border-radius: 50%;
+  }
+  /**navbar css***/
+.navbar
+{
+    background-color: var(--default-secondary-color);
+     
+}
+.navbar ul li a
+{
+    color:white;
+}
+.navbar ul li a:hover
+{
+    color:var(--default-primary-color);
+}
+
+/***carousel caption ***/
+
+.carousel-inner > .carousel-item {
+    position: relative;
+    max-height: 600px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

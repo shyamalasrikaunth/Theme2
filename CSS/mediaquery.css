@@ -125,6 +125,12 @@ font-size:25px;
   line-height: 2 !important;
   padding: 0px 6px 0px 2px;
 }
+.title-desc-services
+{
+  font-size: 18px !important;
+  padding:0px !important;
+  white-space: nowrap;
+}
 .item---title
 {
   font-size:24px !important;
