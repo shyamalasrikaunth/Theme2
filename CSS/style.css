@@ -574,6 +574,10 @@ text-align:right !important;
   background-size: cover;
   background-position: center center;
 }
+.label1
+{
+  color:white;
+}
 .service_banner {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../Images/Headerimages/header2.jpg");
 
