@@ -113,7 +113,9 @@ footer {
     text-align: center !important;
     font-size:2.5rem !important;
   }
-
+.logo{
+  width:100%;
+}
   .main {
     padding-top: 0px !important;
   }
