@@ -2080,6 +2080,10 @@ height:400px;
 /*** media query for top bar for devices from tablets to 13 inch notebook**/
 @media (min-width: 481px) and (max-width: 768px)  
  {
+   .label1
+   {
+     color:white !important;
+   }
   h6{
     font-size: 23px !important;
       }
@@ -2256,7 +2260,10 @@ height:400px;
  }
 /**small size devices***/
  @media only screen and (max-width: 575px) {
-
+.label1
+{
+  color:white !important;
+}
  h6{
 font-size: 21px !important;
   }
