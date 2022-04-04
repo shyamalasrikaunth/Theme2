@@ -2256,11 +2256,11 @@ height:400px;
  h6{
 font-size: 21px !important;
   }
-  .carousel-caption,.carousel-caption-left,.carousel-caption-right,.carousel-caption-center {
+  .carousel-caption,.carousel-caption-left,.carousel-caption-right,.carousel-caption-center,.centermobilel,.centermobiler {
     transform: translateY(-50%) !important;
     bottom:initial !important;
     top:50% !important;
-    font-size:2.5em !important;
+    font-size:2em !important;
     /* top: 30%;
     bottom: auto;
     font-size:30px !important; */
