@@ -1143,6 +1143,7 @@ z-index: 1;
 }
 
 .our-team:hover .social li a {
+  
   background: #ee2e34;
   color: #fff;
 }
@@ -2078,6 +2079,11 @@ height:400px;
   h6{
     font-size: 23px !important;
       }
+      .centermobilel,
+      .centermobiler
+      {
+       text-align:center !important;
+      }
   .ct-header-mobile .ct-header-info-item .h-item-meta
   {
  color:white !important;
@@ -2182,6 +2188,14 @@ height:400px;
     font-weight: 600;
     padding-top: 0px;
    }
+   .centermobilel
+   {
+    text-align:left;
+   }
+   .centermobiler
+   {
+    text-align:right;
+   }
    .aboutus-section p{
     line-height: 1.7;
     font-size: 1.1rem;
@@ -2251,6 +2265,12 @@ font-size: 21px !important;
     bottom: auto;
     font-size:30px !important; */
 }
+   .centermobilel,
+   .centermobiler
+   {
+    text-align:center !important;
+   }
+
 .aboutus-section h3 {
   font-size: 16px !important;
   margin-bottom: 0px !important;
