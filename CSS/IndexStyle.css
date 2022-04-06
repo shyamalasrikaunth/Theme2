@@ -186,6 +186,9 @@ footer {
   .ipad-portrait {
     color: red;
   } 
+  .logo{
+    width:70%;
+  }
   /* your css rules for ipad portrait */
   .mt-3
   {
