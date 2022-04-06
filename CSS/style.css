@@ -188,7 +188,7 @@ textarea:focus { outline-color: #f36c70; }
     border: 5px solid #ebebec;
     border-radius: 50%;
   }
-  .loader .loader-container:before {
+  /* .loader .loader-container:before {
     position: absolute;
     content: "";
     display: block;
@@ -201,7 +201,7 @@ textarea:focus { outline-color: #f36c70; }
     border-radius: 50%;
     animation: loaderspin 1.8s infinite ease-in-out;
     -webkit-animation: loaderspin 1.8s infinite ease-in-out;
-  }
+  } */
   .loader .loader-icon {
     position: absolute;
     top: 50%;
@@ -600,7 +600,11 @@ text-align:right !important;
 {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../Images/Headerimages/parkingheader.jpg");
 }
-.service_banner h1,.SI_banner h1,.Solar_banner h1,.parking_banner h1,.tfm_banner h1{
+.contact_banner
+{
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../Images/Pages/contact.png");
+}
+.service_banner h1,.SI_banner h1,.Solar_banner h1,.parking_banner h1,.tfm_banner h1,.contact_banner h1{
 font-size:3em !important;
 }
 @keyframes shrink {
