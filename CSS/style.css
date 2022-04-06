@@ -2534,6 +2534,11 @@ text-align:left !important;
     color:#f36c70 !important;
     background:#dddddd;
   }
+ .post
+   {
+    font-size:0.95em;
+    font: weight 600;
+   }
 }
  
 .divisions .card-title{
