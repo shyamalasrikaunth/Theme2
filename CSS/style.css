@@ -590,7 +590,7 @@ text-align:right !important;
 }
 .Solar_banner
 {
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../Images/Headerimages/solarpower.jpg");
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../Images/Headerimages/solar.jpg");
 }
 .tfm_banner
 {
@@ -2080,6 +2080,10 @@ height:400px;
 /*** media query for top bar for devices from tablets to 13 inch notebook**/
 @media (min-width: 481px) and (max-width: 768px)  
  {
+  .jumbotron
+  {
+    height: 50vh !important;
+  }
    .label1
    {
      color:white !important;
@@ -2260,6 +2264,13 @@ height:400px;
  }
 /**small size devices***/
  @media only screen and (max-width: 575px) {
+ .jumbotron
+ {
+   height: 50vh !important;
+ }
+ .service_banner h1, .SI_banner h1, .Solar_banner h1, .parking_banner h1, .tfm_banner h1 {
+  font-size: 2.5em !important;
+}
 .label1
 {
   color:white !important;
