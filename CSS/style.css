@@ -1988,6 +1988,10 @@ height:50vh;
     padding:50px;
     color:white;
 }
+.fa-user,.fa-envelope-open,.fa-whatsapp,.fa-edit,.fa-comment-dots
+{
+  font-size:24px;
+}
 .icon-holder
 {
   background-color:#d83030;
@@ -2268,6 +2272,10 @@ height:400px;
  }
 /**small size devices***/
  @media only screen and (max-width: 575px) {
+   .locdetails
+   {
+     height:775px !important;
+   }
  .jumbotron
  {
    height: 50vh !important;
